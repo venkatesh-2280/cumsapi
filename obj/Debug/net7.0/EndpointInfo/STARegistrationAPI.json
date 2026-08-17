@@ -1,0 +1,2640 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "STARegistrationAPI",
+    "version": "1.0"
+  },
+  "paths": {
+    "/saveCompanyLogo": {
+      "post": {
+        "tags": [
+          "Company"
+        ],
+        "parameters": [
+          {
+            "name": "companygid",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "files": {
+                    "type": "array",
+                    "items": {
+                      "type": "string",
+                      "format": "binary"
+                    }
+                  }
+                }
+              },
+              "encoding": {
+                "files": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/MailConfig": {
+      "post": {
+        "tags": [
+          "Company"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MailConfiguration_Model"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MailConfiguration_Model"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/MailConfiguration_Model"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/CapitalStructure": {
+      "post": {
+        "tags": [
+          "Company"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Capital_Model"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Capital_Model"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Capital_Model"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/DashboardDetails": {
+      "get": {
+        "tags": [
+          "Company"
+        ],
+        "parameters": [
+          {
+            "name": "sUserGid",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "scompanyGid",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "sIsinNumber",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/GetDocList": {
+      "get": {
+        "tags": [
+          "Document"
+        ],
+        "parameters": [
+          {
+            "name": "presaleid",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/IudDoc": {
+      "post": {
+        "tags": [
+          "Document"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DocumentModel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DocumentModel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/DocumentModel"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/EmployeeDetails": {
+      "get": {
+        "tags": [
+          "EmployeeMaster"
+        ],
+        "parameters": [
+          {
+            "name": "userid",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "sAction",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/GetTreeNodes": {
+      "get": {
+        "tags": [
+          "EmployeeMaster"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/GetEmpcheckedvaluedb": {
+      "get": {
+        "tags": [
+          "EmployeeMaster"
+        ],
+        "parameters": [
+          {
+            "name": "empid",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/SaveEmployee": {
+      "post": {
+        "tags": [
+          "EmployeeMaster"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/EmployeeMaster_Model"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/EmployeeMaster_Model"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/EmployeeMaster_Model"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/getOTP": {
+      "post": {
+        "tags": [
+          "Login"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginModel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginModel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginModel"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/validateOTP": {
+      "post": {
+        "tags": [
+          "Login"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginModel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginModel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginModel"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/getMenu": {
+      "post": {
+        "tags": [
+          "Login"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginModel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginModel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginModel"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/ChangePassword": {
+      "post": {
+        "tags": [
+          "Login"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginModel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginModel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginModel"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/GetChngPwdFlag": {
+      "post": {
+        "tags": [
+          "Login"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginModel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginModel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginModel"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/PayHislist": {
+      "get": {
+        "tags": [
+          "PaymentHistory"
+        ],
+        "parameters": [
+          {
+            "name": "presaleid",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/PayHisDtllist": {
+      "get": {
+        "tags": [
+          "PaymentHistory"
+        ],
+        "parameters": [
+          {
+            "name": "sectypeid",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/PresaleList": {
+      "get": {
+        "tags": [
+          "Presale"
+        ],
+        "parameters": [
+          {
+            "name": "ActionTab",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/GetAuditList": {
+      "get": {
+        "tags": [
+          "Presale"
+        ],
+        "parameters": [
+          {
+            "name": "presaleid",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/GetPresaleRenewalList": {
+      "get": {
+        "tags": [
+          "Presale"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/CheckMailTrigger": {
+      "post": {
+        "tags": [
+          "Presale"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/mailModel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/mailModel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/mailModel"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/insemaildetails": {
+      "post": {
+        "tags": [
+          "Presale"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/mailinsertModel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/mailinsertModel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/mailinsertModel"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/insemaildetails1": {
+      "post": {
+        "tags": [
+          "Presale"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/isinmailinsertModel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/isinmailinsertModel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/isinmailinsertModel"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/IudPresale": {
+      "post": {
+        "tags": [
+          "Presale"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/PresaleModel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/PresaleModel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/PresaleModel"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/PresaleISINList": {
+      "get": {
+        "tags": [
+          "Presale"
+        ],
+        "parameters": [
+          {
+            "name": "ActionTab",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/GetMstDocList": {
+      "get": {
+        "tags": [
+          "Presale"
+        ],
+        "parameters": [
+          {
+            "name": "doc_gid",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "in_action",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "in_docsub_category",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/getISINList": {
+      "get": {
+        "tags": [
+          "Presale"
+        ],
+        "parameters": [
+          {
+            "name": "chrg_presale_gid",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "chrg_gid",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "start_date",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "end_date",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "status",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/getAuditdetails": {
+      "get": {
+        "tags": [
+          "Presale"
+        ],
+        "parameters": [
+          {
+            "name": "chrg_presale_gid",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/IudISINSerChrg": {
+      "post": {
+        "tags": [
+          "Presale"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/isinservicecharges"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/isinservicecharges"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/isinservicecharges"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/GetISINSerChrgDtl": {
+      "get": {
+        "tags": [
+          "Presale"
+        ],
+        "parameters": [
+          {
+            "name": "chrg_gid",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/GetISINSerChrgDocDtl": {
+      "get": {
+        "tags": [
+          "Presale"
+        ],
+        "parameters": [
+          {
+            "name": "chrgdoc_chrg_gid",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/IudISINSerChrgDoc": {
+      "post": {
+        "tags": [
+          "Presale"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/isinservicechargesdoc"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/isinservicechargesdoc"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/isinservicechargesdoc"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/GetISINMailDtl": {
+      "get": {
+        "tags": [
+          "Presale"
+        ],
+        "parameters": [
+          {
+            "name": "isinmail_gid",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/GetMstSecList": {
+      "get": {
+        "tags": [
+          "Presale"
+        ],
+        "parameters": [
+          {
+            "name": "in_action",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "sectype_gid",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/GetMstList": {
+      "get": {
+        "tags": [
+          "Presale"
+        ],
+        "parameters": [
+          {
+            "name": "in_action",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "country_gid",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "state_gid",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/GetMisReport": {
+      "get": {
+        "tags": [
+          "Reports"
+        ],
+        "parameters": [
+          {
+            "name": "start_date",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "end_date",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/getCompanyRptDetails": {
+      "get": {
+        "tags": [
+          "Reports"
+        ],
+        "parameters": [
+          {
+            "name": "line_no",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "start_date",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "end_date",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/Sectypelist": {
+      "get": {
+        "tags": [
+          "SecurityType"
+        ],
+        "parameters": [
+          {
+            "name": "presaleid",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "presaleversion",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/IudSectype": {
+      "post": {
+        "tags": [
+          "SecurityType"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/SecurityTypeModel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/SecurityTypeModel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/SecurityTypeModel"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/GetSectypedtl": {
+      "get": {
+        "tags": [
+          "SecurityTypeDtl"
+        ],
+        "parameters": [
+          {
+            "name": "sectype_gid",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/IudSectypedtl": {
+      "post": {
+        "tags": [
+          "SecurityTypeDtl"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/SecurityTypeDtlModel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/SecurityTypeDtlModel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/SecurityTypeDtlModel"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/UserGroups": {
+      "get": {
+        "tags": [
+          "UserGroupsMapping"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/RoleMapping": {
+      "get": {
+        "tags": [
+          "UserGroupsMapping"
+        ],
+        "parameters": [
+          {
+            "name": "user_gid",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "integer",
+              "format": "int64"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/CreateUserGroupsNew": {
+      "get": {
+        "tags": [
+          "UserGroupsMapping"
+        ],
+        "parameters": [
+          {
+            "name": "usergroup_gid",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "usergroup_name",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "usergroup_code",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/SaveUserRoleMap": {
+      "post": {
+        "tags": [
+          "UserGroupsMapping"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/RoleMappings"
+                }
+              }
+            },
+            "text/json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/RoleMappings"
+                }
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/RoleMappings"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/UsersList": {
+      "get": {
+        "tags": [
+          "UserManagement"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/InsUser": {
+      "post": {
+        "tags": [
+          "UserManagement"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UserManagementModel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UserManagementModel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/UserManagementModel"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/UpdUser": {
+      "post": {
+        "tags": [
+          "UserManagement"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UserManagementModel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UserManagementModel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/UserManagementModel"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/WeatherForecast": {
+      "get": {
+        "tags": [
+          "WeatherForecast"
+        ],
+        "operationId": "GetWeatherForecast",
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/WeatherForecast"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/WeatherForecast"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/WeatherForecast"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "Capital_Model": {
+        "type": "object",
+        "properties": {
+          "actionName": {
+            "type": "string",
+            "nullable": true
+          },
+          "cap_gid": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "company_Gid": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "shareTypeGid": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "shareQty": {
+            "type": "number",
+            "format": "double"
+          },
+          "paidUpValue": {
+            "type": "number",
+            "format": "double"
+          },
+          "shareValue": {
+            "type": "number",
+            "format": "double"
+          },
+          "isin": {
+            "type": "string",
+            "nullable": true
+          },
+          "user_GID": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "DocumentModel": {
+        "type": "object",
+        "properties": {
+          "doc_gid": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "doc_presale_gid": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "doc_sectype_gid": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "doc_security_type": {
+            "type": "string",
+            "nullable": true
+          },
+          "doc_type": {
+            "type": "string",
+            "nullable": true
+          },
+          "doc_file_name": {
+            "type": "string",
+            "nullable": true
+          },
+          "doc_path": {
+            "type": "string",
+            "nullable": true
+          },
+          "doc_remarks": {
+            "type": "string",
+            "nullable": true
+          },
+          "queuestatus": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "doc_insert_by": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "doc_update_by": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "action": {
+            "type": "string",
+            "nullable": true
+          },
+          "doc_version": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "doc_gst_add": {
+            "type": "string",
+            "nullable": true
+          },
+          "doc_date": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "doc_presales_gid": {
+            "type": "string",
+            "nullable": true
+          },
+          "doc_versions": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "EmployeeMaster_Model": {
+        "required": [
+          "doj",
+          "emailID",
+          "employeeCode",
+          "employeeName",
+          "mobileNo",
+          "password",
+          "pin",
+          "status"
+        ],
+        "type": "object",
+        "properties": {
+          "employeeID": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "sAction": {
+            "type": "string",
+            "nullable": true
+          },
+          "employeeCode": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "employeeName": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "userID": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "titleID": {
+            "maximum": 2147483647,
+            "minimum": 1,
+            "type": "integer",
+            "format": "int64"
+          },
+          "title": {
+            "type": "string",
+            "nullable": true
+          },
+          "doj": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "address": {
+            "type": "string",
+            "nullable": true
+          },
+          "mobileNo": {
+            "maxLength": 13,
+            "minLength": 10,
+            "type": "string"
+          },
+          "lanNo": {
+            "type": "string",
+            "nullable": true
+          },
+          "emailID": {
+            "minLength": 1,
+            "pattern": "^[a-zA-Z0-9_\\.-]+@([a-zA-Z0-9-]+\\.)+[a-zA-Z]{2,6}$",
+            "type": "string",
+            "format": "email"
+          },
+          "password": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "employeeType": {
+            "type": "string",
+            "nullable": true
+          },
+          "typeName": {
+            "type": "string",
+            "nullable": true
+          },
+          "typeID": {
+            "maximum": 2147483647,
+            "minimum": 1,
+            "type": "integer",
+            "format": "int64"
+          },
+          "city": {
+            "type": "string",
+            "nullable": true
+          },
+          "cityID": {
+            "maximum": 2147483647,
+            "minimum": 1,
+            "type": "integer",
+            "format": "int64"
+          },
+          "state": {
+            "type": "string",
+            "nullable": true
+          },
+          "stateID": {
+            "maximum": 2147483647,
+            "minimum": 1,
+            "type": "integer",
+            "format": "int64"
+          },
+          "pin": {
+            "maxLength": 6,
+            "minLength": 6,
+            "type": "string"
+          },
+          "region": {
+            "type": "string",
+            "nullable": true
+          },
+          "regionID": {
+            "maximum": 2147483647,
+            "minimum": 1,
+            "type": "integer",
+            "format": "int64"
+          },
+          "unit": {
+            "type": "string",
+            "nullable": true
+          },
+          "unitID": {
+            "maximum": 2147483647,
+            "minimum": 1,
+            "type": "integer",
+            "format": "int64"
+          },
+          "dept_Name": {
+            "type": "string",
+            "nullable": true
+          },
+          "dept_Id": {
+            "maximum": 2147483647,
+            "minimum": 1,
+            "type": "integer",
+            "format": "int64"
+          },
+          "grade": {
+            "type": "string",
+            "nullable": true
+          },
+          "gradeID": {
+            "maximum": 2147483647,
+            "minimum": 1,
+            "type": "integer",
+            "format": "int64"
+          },
+          "userGroup": {
+            "type": "string",
+            "nullable": true
+          },
+          "userGroupID": {
+            "maximum": 2147483647,
+            "minimum": 1,
+            "type": "integer",
+            "format": "int64"
+          },
+          "status": {
+            "minLength": 1,
+            "type": "string",
+            "default": "Active"
+          },
+          "orgLevelMax": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "LoginModel": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "empcode": {
+            "type": "string",
+            "nullable": true
+          },
+          "name": {
+            "type": "string",
+            "nullable": true
+          },
+          "pan": {
+            "type": "string",
+            "nullable": true
+          },
+          "old_pwd": {
+            "type": "string",
+            "nullable": true
+          },
+          "new_pwd": {
+            "type": "string",
+            "nullable": true
+          },
+          "con_pwd": {
+            "type": "string",
+            "nullable": true
+          },
+          "role": {
+            "type": "string",
+            "nullable": true
+          },
+          "empEmail": {
+            "type": "string",
+            "nullable": true
+          },
+          "empEmail1": {
+            "type": "string",
+            "nullable": true
+          },
+          "otp": {
+            "type": "string",
+            "nullable": true
+          },
+          "userGroupid": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "menuType": {
+            "type": "string",
+            "nullable": true
+          },
+          "menuGid": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "action": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "MailConfiguration_Model": {
+        "required": [
+          "mailId",
+          "mailPort",
+          "mailPwd",
+          "mailSmtp"
+        ],
+        "type": "object",
+        "properties": {
+          "actionName": {
+            "type": "string",
+            "nullable": true
+          },
+          "gid": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "mailId": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "mailPwd": {
+            "minLength": 1,
+            "type": "string",
+            "format": "password"
+          },
+          "mailSmtp": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "mailPort": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "mailType": {
+            "type": "string",
+            "nullable": true
+          },
+          "createBy": {
+            "type": "string",
+            "nullable": true
+          },
+          "companyGid": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "PresaleModel": {
+        "type": "object",
+        "properties": {
+          "presale_gid": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "presale_company_name": {
+            "type": "string",
+            "nullable": true
+          },
+          "presale_contact_person": {
+            "type": "string",
+            "nullable": true
+          },
+          "presale_contact_no": {
+            "type": "integer",
+            "format": "int64",
+            "nullable": true
+          },
+          "presale_email_id": {
+            "type": "string",
+            "nullable": true
+          },
+          "presale_company_addr": {
+            "type": "string",
+            "nullable": true
+          },
+          "presale_depository_type": {
+            "type": "string",
+            "nullable": true
+          },
+          "presale_designation": {
+            "type": "string",
+            "nullable": true
+          },
+          "presale_cin": {
+            "type": "string",
+            "nullable": true
+          },
+          "presale_company_type": {
+            "type": "string",
+            "nullable": true
+          },
+          "presale_listing_status": {
+            "type": "string",
+            "nullable": true
+          },
+          "presale_gst_no": {
+            "type": "string",
+            "nullable": true
+          },
+          "presale_ref_by": {
+            "type": "string",
+            "nullable": true
+          },
+          "presale_ref_contact_no": {
+            "type": "integer",
+            "format": "int64",
+            "nullable": true
+          },
+          "presale_ref_email": {
+            "type": "string",
+            "nullable": true
+          },
+          "presale_status": {
+            "type": "string",
+            "nullable": true
+          },
+          "sectype_tenure": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "sectype_service_start_month": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "sectype_service_end_month": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "sectype_version": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "user_role": {
+            "type": "string",
+            "nullable": true
+          },
+          "doc_presales_gid": {
+            "type": "string",
+            "nullable": true
+          },
+          "doc_gst_add": {
+            "type": "string",
+            "nullable": true
+          },
+          "doc_date": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "doc_version": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "doc_versions": {
+            "type": "string",
+            "nullable": true
+          },
+          "presale_ops_status": {
+            "type": "string",
+            "nullable": true
+          },
+          "presale_sec_type": {
+            "type": "string",
+            "nullable": true
+          },
+          "presale_secsub_type": {
+            "type": "string",
+            "nullable": true
+          },
+          "presale_maturity_date": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "presale_version": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "insert_by": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "update_by": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "action": {
+            "type": "string",
+            "nullable": true
+          },
+          "presale_add2": {
+            "type": "string",
+            "nullable": true
+          },
+          "presale_add3": {
+            "type": "string",
+            "nullable": true
+          },
+          "presale_country": {
+            "type": "string",
+            "nullable": true
+          },
+          "presale_state": {
+            "type": "string",
+            "nullable": true
+          },
+          "presale_city": {
+            "type": "string",
+            "nullable": true
+          },
+          "presale_pincode": {
+            "type": "string",
+            "nullable": true
+          },
+          "doc_gid": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "doc_presale_gid": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "doc_sectype_gid": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "doc_security_type": {
+            "type": "string",
+            "nullable": true
+          },
+          "doc_type": {
+            "type": "string",
+            "nullable": true
+          },
+          "doc_file_name": {
+            "type": "string",
+            "nullable": true
+          },
+          "doc_path": {
+            "type": "string",
+            "nullable": true
+          },
+          "doc_remarks": {
+            "type": "string",
+            "nullable": true
+          },
+          "doc_insert_by": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "doc_update_by": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "queuestatus": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "RoleMappings": {
+        "type": "object",
+        "properties": {
+          "rolemenu_rowid": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "menu_gid": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "menu_name": {
+            "type": "string",
+            "nullable": true
+          },
+          "add_perm": {
+            "type": "string",
+            "nullable": true
+          },
+          "mod_perm": {
+            "type": "string",
+            "nullable": true
+          },
+          "view_perm": {
+            "type": "string",
+            "nullable": true
+          },
+          "download_perm": {
+            "type": "string",
+            "nullable": true
+          },
+          "link_perm": {
+            "type": "string",
+            "nullable": true
+          },
+          "mail_perm": {
+            "type": "string",
+            "nullable": true
+          },
+          "retreq_perm": {
+            "type": "string",
+            "nullable": true
+          },
+          "deny_flag": {
+            "type": "string",
+            "nullable": true
+          },
+          "role_code": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "SecurityTypeDtlModel": {
+        "type": "object",
+        "properties": {
+          "sectypdtl_gid": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "sectypdtl_sectype_gid": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "sectypdtl_gst_percentage": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "sectypdtl_gst_amount": {
+            "type": "number",
+            "format": "double"
+          },
+          "sectypdtl_total_amount": {
+            "type": "number",
+            "format": "double"
+          },
+          "sectypdtl_received_amount": {
+            "type": "number",
+            "format": "double"
+          },
+          "sectypdtl_due_amount": {
+            "type": "number",
+            "format": "double"
+          },
+          "sectypdtl_received_date": {
+            "type": "string",
+            "nullable": true
+          },
+          "sectypdtl_payable_amount": {
+            "type": "number",
+            "format": "double"
+          },
+          "sectypdtl_description": {
+            "type": "string",
+            "nullable": true
+          },
+          "sectypdtl_remarks": {
+            "type": "string",
+            "nullable": true
+          },
+          "sectypdtl_version": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "queuestatus": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "insert_by": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "update_by": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "action": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "SecurityTypeModel": {
+        "type": "object",
+        "properties": {
+          "sectype_gid": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "sectype_presale_gid": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "sectype_security_type": {
+            "type": "string",
+            "nullable": true
+          },
+          "sectype_paidup_captital": {
+            "type": "number",
+            "format": "double"
+          },
+          "sectype_face_value": {
+            "type": "number",
+            "format": "double"
+          },
+          "sectype_no_of_shares": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "sectype_no_of_shareholders": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "sectype_tenure": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "sectype_service_start_month": {
+            "type": "string",
+            "nullable": true
+          },
+          "sectype_isin_no": {
+            "type": "string",
+            "nullable": true
+          },
+          "sectype_isin_start_date": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "sectype_amount": {
+            "type": "number",
+            "format": "double"
+          },
+          "sectype_description": {
+            "type": "string",
+            "nullable": true
+          },
+          "queuestatus": {
+            "type": "string",
+            "nullable": true
+          },
+          "insert_by": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "update_by": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "action": {
+            "type": "string",
+            "nullable": true
+          },
+          "sectype_version": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "UserManagementModel": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "empcode": {
+            "type": "string",
+            "nullable": true
+          },
+          "name": {
+            "type": "string",
+            "nullable": true
+          },
+          "email": {
+            "type": "string",
+            "nullable": true
+          },
+          "status": {
+            "type": "string",
+            "nullable": true
+          },
+          "userrole": {
+            "type": "string",
+            "nullable": true
+          },
+          "password": {
+            "type": "string",
+            "nullable": true
+          },
+          "pan": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "WeatherForecast": {
+        "type": "object",
+        "properties": {
+          "date": {
+            "type": "string",
+            "format": "date"
+          },
+          "temperatureC": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "temperatureF": {
+            "type": "integer",
+            "format": "int32",
+            "readOnly": true
+          },
+          "summary": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "isinmailinsertModel": {
+        "type": "object",
+        "properties": {
+          "doc_gid": {
+            "type": "string",
+            "nullable": true
+          },
+          "doc_file_name": {
+            "type": "string",
+            "nullable": true
+          },
+          "mail_to": {
+            "type": "string",
+            "nullable": true
+          },
+          "mail_cc": {
+            "type": "string",
+            "nullable": true
+          },
+          "mail_sub": {
+            "type": "string",
+            "nullable": true
+          },
+          "mail_msg": {
+            "type": "string",
+            "nullable": true
+          },
+          "mail_file_name": {
+            "type": "string",
+            "nullable": true
+          },
+          "mail_file_path": {
+            "type": "string",
+            "nullable": true
+          },
+          "presale_gid": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "chrg_gid": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "doctype_gid": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "docsubtype_gid": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "insert_by": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "isinservicecharges": {
+        "type": "object",
+        "properties": {
+          "chrg_gid": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "chrg_presale_gid": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "docsub_gid": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "doc_gid": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "chrg_gst_percentage": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "chrg_total_amt": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "chrg_gst_amt": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "chrg_share_count": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "chrg_payable_amt": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "chrg_received_amt": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "chrg_due_amt": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "doc_name": {
+            "type": "string",
+            "nullable": true
+          },
+          "docsub_name": {
+            "type": "string",
+            "nullable": true
+          },
+          "chrg_date": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "chrg_received_date": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "chrg_status": {
+            "type": "string",
+            "nullable": true
+          },
+          "presale_company_name": {
+            "type": "string",
+            "nullable": true
+          },
+          "presale_depository_type": {
+            "type": "string",
+            "nullable": true
+          },
+          "isin_no": {
+            "type": "string",
+            "nullable": true
+          },
+          "chrg_doc_status": {
+            "type": "string",
+            "nullable": true
+          },
+          "insert_by": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "update_by": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "in_action": {
+            "type": "string",
+            "nullable": true
+          },
+          "chrg_remarks": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "isinservicechargesdoc": {
+        "type": "object",
+        "properties": {
+          "chrgdoc_gid": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "chrgdoc_chrg_gid": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "chrgdoc_doc_gid": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "chrgdoc_docsub_gid": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "chrgdoc_file_name": {
+            "type": "string",
+            "nullable": true
+          },
+          "chrgdoc_path": {
+            "type": "string",
+            "nullable": true
+          },
+          "doc_extension": {
+            "type": "string",
+            "nullable": true
+          },
+          "chrgdoc_docno": {
+            "type": "string",
+            "nullable": true
+          },
+          "remarks": {
+            "type": "string",
+            "nullable": true
+          },
+          "chrgdoc_doc_type": {
+            "type": "string",
+            "nullable": true
+          },
+          "chrgdoc_invno": {
+            "type": "string",
+            "nullable": true
+          },
+          "chrg_invdate": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "insert_by": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "update_by": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "in_action": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "mailModel": {
+        "type": "object",
+        "properties": {
+          "presale_gid": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "presale_version": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "mailinsertModel": {
+        "type": "object",
+        "properties": {
+          "doc_gid": {
+            "type": "string",
+            "nullable": true
+          },
+          "doc_file_name": {
+            "type": "string",
+            "nullable": true
+          },
+          "mail_to": {
+            "type": "string",
+            "nullable": true
+          },
+          "mail_cc": {
+            "type": "string",
+            "nullable": true
+          },
+          "mail_file_name": {
+            "type": "string",
+            "nullable": true
+          },
+          "mail_sub": {
+            "type": "string",
+            "nullable": true
+          },
+          "mail_msg": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  }
+}

@@ -1,0 +1,231 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Venki Shared Project\\Pandiaraj\\IPO_CUMS\\CUMS_api\\STAapi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F62C5E4E-0A9F-E155-A571-EA44968097D0}|STAapi.csproj|e:\\venki shared project\\pandiaraj\\ipo_cums\\cums_api\\staapi\\stadataaccess\\usermanagementdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F62C5E4E-0A9F-E155-A571-EA44968097D0}|STAapi.csproj|solutionrelative:stadataaccess\\usermanagementdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F62C5E4E-0A9F-E155-A571-EA44968097D0}|STAapi.csproj|e:\\venki shared project\\pandiaraj\\ipo_cums\\cums_api\\staapi\\controllers\\usermanagementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F62C5E4E-0A9F-E155-A571-EA44968097D0}|STAapi.csproj|solutionrelative:controllers\\usermanagementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F62C5E4E-0A9F-E155-A571-EA44968097D0}|STAapi.csproj|e:\\venki shared project\\pandiaraj\\ipo_cums\\cums_api\\staapi\\controllers\\usergroupsmappingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F62C5E4E-0A9F-E155-A571-EA44968097D0}|STAapi.csproj|solutionrelative:controllers\\usergroupsmappingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F62C5E4E-0A9F-E155-A571-EA44968097D0}|STAapi.csproj|e:\\venki shared project\\pandiaraj\\ipo_cums\\cums_api\\staapi\\models\\usermanagementmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F62C5E4E-0A9F-E155-A571-EA44968097D0}|STAapi.csproj|solutionrelative:models\\usermanagementmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F62C5E4E-0A9F-E155-A571-EA44968097D0}|STAapi.csproj|e:\\venki shared project\\pandiaraj\\ipo_cums\\cums_api\\staapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F62C5E4E-0A9F-E155-A571-EA44968097D0}|STAapi.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F62C5E4E-0A9F-E155-A571-EA44968097D0}|STAapi.csproj|e:\\venki shared project\\pandiaraj\\ipo_cums\\cums_api\\staapi\\controllers\\middleware\\jwtauthorizationmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F62C5E4E-0A9F-E155-A571-EA44968097D0}|STAapi.csproj|solutionrelative:controllers\\middleware\\jwtauthorizationmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F62C5E4E-0A9F-E155-A571-EA44968097D0}|STAapi.csproj|e:\\venki shared project\\pandiaraj\\ipo_cums\\cums_api\\staapi\\jwttokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F62C5E4E-0A9F-E155-A571-EA44968097D0}|STAapi.csproj|solutionrelative:jwttokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F62C5E4E-0A9F-E155-A571-EA44968097D0}|STAapi.csproj|e:\\venki shared project\\pandiaraj\\ipo_cums\\cums_api\\staapi\\stadataaccess\\logindata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F62C5E4E-0A9F-E155-A571-EA44968097D0}|STAapi.csproj|solutionrelative:stadataaccess\\logindata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F62C5E4E-0A9F-E155-A571-EA44968097D0}|STAapi.csproj|e:\\venki shared project\\pandiaraj\\ipo_cums\\cums_api\\staapi\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F62C5E4E-0A9F-E155-A571-EA44968097D0}|STAapi.csproj|solutionrelative:controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F62C5E4E-0A9F-E155-A571-EA44968097D0}|STAapi.csproj|e:\\venki shared project\\pandiaraj\\ipo_cums\\cums_api\\staapi\\stadataaccess\\usergroupsdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F62C5E4E-0A9F-E155-A571-EA44968097D0}|STAapi.csproj|solutionrelative:stadataaccess\\usergroupsdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F62C5E4E-0A9F-E155-A571-EA44968097D0}|STAapi.csproj|e:\\venki shared project\\pandiaraj\\ipo_cums\\cums_api\\staapi\\models\\usergroups_model.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F62C5E4E-0A9F-E155-A571-EA44968097D0}|STAapi.csproj|solutionrelative:models\\usergroups_model.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F62C5E4E-0A9F-E155-A571-EA44968097D0}|STAapi.csproj|e:\\venki shared project\\pandiaraj\\ipo_cums\\cums_api\\staapi\\controllers\\rolemastercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F62C5E4E-0A9F-E155-A571-EA44968097D0}|STAapi.csproj|solutionrelative:controllers\\rolemastercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F62C5E4E-0A9F-E155-A571-EA44968097D0}|STAapi.csproj|e:\\venki shared project\\pandiaraj\\ipo_cums\\cums_api\\staapi\\models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F62C5E4E-0A9F-E155-A571-EA44968097D0}|STAapi.csproj|solutionrelative:models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserManagementModel.cs",
+              "DocumentMoniker": "E:\\Venki Shared Project\\Pandiaraj\\IPO_CUMS\\CUMS_api\\STAapi\\Models\\UserManagementModel.cs",
+              "RelativeDocumentMoniker": "Models\\UserManagementModel.cs",
+              "ToolTip": "E:\\Venki Shared Project\\Pandiaraj\\IPO_CUMS\\CUMS_api\\STAapi\\Models\\UserManagementModel.cs",
+              "RelativeToolTip": "Models\\UserManagementModel.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-11T10:41:42.118Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserManagementData.cs",
+              "DocumentMoniker": "E:\\Venki Shared Project\\Pandiaraj\\IPO_CUMS\\CUMS_api\\STAapi\\STADataAccess\\UserManagementData.cs",
+              "RelativeDocumentMoniker": "STADataAccess\\UserManagementData.cs",
+              "ToolTip": "E:\\Venki Shared Project\\Pandiaraj\\IPO_CUMS\\CUMS_api\\STAapi\\STADataAccess\\UserManagementData.cs",
+              "RelativeToolTip": "STADataAccess\\UserManagementData.cs",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAAAFoAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-11T08:08:01.958Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "JwtAuthorizationMiddleware.cs",
+              "DocumentMoniker": "E:\\Venki Shared Project\\Pandiaraj\\IPO_CUMS\\CUMS_api\\STAapi\\Controllers\\Middleware\\JwtAuthorizationMiddleware.cs",
+              "RelativeDocumentMoniker": "Controllers\\Middleware\\JwtAuthorizationMiddleware.cs",
+              "ToolTip": "E:\\Venki Shared Project\\Pandiaraj\\IPO_CUMS\\CUMS_api\\STAapi\\Controllers\\Middleware\\JwtAuthorizationMiddleware.cs",
+              "RelativeToolTip": "Controllers\\Middleware\\JwtAuthorizationMiddleware.cs",
+              "ViewState": "AgIAAGkAAAAAAAAAAAAiwHQAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-17T07:55:16.589Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "JwtTokenService.cs",
+              "DocumentMoniker": "E:\\Venki Shared Project\\Pandiaraj\\IPO_CUMS\\CUMS_api\\STAapi\\JwtTokenService.cs",
+              "RelativeDocumentMoniker": "JwtTokenService.cs",
+              "ToolTip": "E:\\Venki Shared Project\\Pandiaraj\\IPO_CUMS\\CUMS_api\\STAapi\\JwtTokenService.cs",
+              "RelativeToolTip": "JwtTokenService.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAowAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-17T07:55:07.932Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\Venki Shared Project\\Pandiaraj\\IPO_CUMS\\CUMS_api\\STAapi\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "E:\\Venki Shared Project\\Pandiaraj\\IPO_CUMS\\CUMS_api\\STAapi\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-06-17T07:54:30.017Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserGroupsMappingController.cs",
+              "DocumentMoniker": "E:\\Venki Shared Project\\Pandiaraj\\IPO_CUMS\\CUMS_api\\STAapi\\Controllers\\UserGroupsMappingController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UserGroupsMappingController.cs",
+              "ToolTip": "E:\\Venki Shared Project\\Pandiaraj\\IPO_CUMS\\CUMS_api\\STAapi\\Controllers\\UserGroupsMappingController.cs",
+              "RelativeToolTip": "Controllers\\UserGroupsMappingController.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAlwDcAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-16T06:29:47.405Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UserGroups_Model.cs",
+              "DocumentMoniker": "E:\\Venki Shared Project\\Pandiaraj\\IPO_CUMS\\CUMS_api\\STAapi\\Models\\UserGroups_Model.cs",
+              "RelativeDocumentMoniker": "Models\\UserGroups_Model.cs",
+              "ToolTip": "E:\\Venki Shared Project\\Pandiaraj\\IPO_CUMS\\CUMS_api\\STAapi\\Models\\UserGroups_Model.cs",
+              "RelativeToolTip": "Models\\UserGroups_Model.cs",
+              "ViewState": "AgIAAEcAAAAAAAAAAAASwEwAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-17T06:44:00.465Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UserGroupsData.cs",
+              "DocumentMoniker": "E:\\Venki Shared Project\\Pandiaraj\\IPO_CUMS\\CUMS_api\\STAapi\\STADataAccess\\UserGroupsData.cs",
+              "RelativeDocumentMoniker": "STADataAccess\\UserGroupsData.cs",
+              "ToolTip": "E:\\Venki Shared Project\\Pandiaraj\\IPO_CUMS\\CUMS_api\\STAapi\\STADataAccess\\UserGroupsData.cs",
+              "RelativeToolTip": "STADataAccess\\UserGroupsData.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAvwNgAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-16T06:34:37.032Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "E:\\Venki Shared Project\\Pandiaraj\\IPO_CUMS\\CUMS_api\\STAapi\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "Controllers\\LoginController.cs",
+              "ToolTip": "E:\\Venki Shared Project\\Pandiaraj\\IPO_CUMS\\CUMS_api\\STAapi\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "Controllers\\LoginController.cs",
+              "ViewState": "AgIAANwAAAAAAAAAAAAawOkAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-16T06:29:46.797Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "LoginData.cs",
+              "DocumentMoniker": "E:\\Venki Shared Project\\Pandiaraj\\IPO_CUMS\\CUMS_api\\STAapi\\STADataAccess\\LoginData.cs",
+              "RelativeDocumentMoniker": "STADataAccess\\LoginData.cs",
+              "ToolTip": "E:\\Venki Shared Project\\Pandiaraj\\IPO_CUMS\\CUMS_api\\STAapi\\STADataAccess\\LoginData.cs",
+              "RelativeToolTip": "STADataAccess\\LoginData.cs",
+              "ViewState": "AgIAAGgAAAAAAAAAAAAawG4AAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-19T04:56:17.701Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "LoginModel.cs",
+              "DocumentMoniker": "E:\\Venki Shared Project\\Pandiaraj\\IPO_CUMS\\CUMS_api\\STAapi\\Models\\LoginModel.cs",
+              "RelativeDocumentMoniker": "Models\\LoginModel.cs",
+              "ToolTip": "E:\\Venki Shared Project\\Pandiaraj\\IPO_CUMS\\CUMS_api\\STAapi\\Models\\LoginModel.cs",
+              "RelativeToolTip": "Models\\LoginModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-19T04:53:23.648Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserManagementController.cs",
+              "DocumentMoniker": "E:\\Venki Shared Project\\Pandiaraj\\IPO_CUMS\\CUMS_api\\STAapi\\Controllers\\UserManagementController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UserManagementController.cs",
+              "ToolTip": "E:\\Venki Shared Project\\Pandiaraj\\IPO_CUMS\\CUMS_api\\STAapi\\Controllers\\UserManagementController.cs",
+              "RelativeToolTip": "Controllers\\UserManagementController.cs",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAowF4AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-19T06:20:20.639Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "RoleMasterController.cs",
+              "DocumentMoniker": "E:\\Venki Shared Project\\Pandiaraj\\IPO_CUMS\\CUMS_api\\STAapi\\Controllers\\RoleMasterController.cs",
+              "RelativeDocumentMoniker": "Controllers\\RoleMasterController.cs",
+              "ToolTip": "E:\\Venki Shared Project\\Pandiaraj\\IPO_CUMS\\CUMS_api\\STAapi\\Controllers\\RoleMasterController.cs",
+              "RelativeToolTip": "Controllers\\RoleMasterController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-18T10:15:40.609Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

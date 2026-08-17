@@ -1,0 +1,1161 @@
+[
+  {
+    "ContainingType": "STAapi.Controllers.QcdmasterController",
+    "Method": "getallqcdmaster",
+    "RelativePath": "api/Qcdmaster/getallqcdmaster",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "objgridread",
+        "Type": "STAapimodels.Qcdgridread",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "STAapi.Controllers.QcdmasterController",
+    "Method": "getallqcdmaster2",
+    "RelativePath": "api/Qcdmaster/getallqcdmaster1",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "STAapi.Controllers.QcdmasterController",
+    "Method": "QcdMaster",
+    "RelativePath": "api/Qcdmaster/QcdMaster",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "objmaster",
+        "Type": "STAapimodels.mainQCDMaster",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "STAapi.Controllers.QcdmasterController",
+    "Method": "QcdMasterGridRead",
+    "RelativePath": "api/Qcdmaster/QcdMasterGridRead",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "objgridread",
+        "Type": "STAapimodels.Qcdgridread",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "STAapi.Controllers.QcdmasterController",
+    "Method": "QcdMasterRead",
+    "RelativePath": "api/Qcdmaster/QcdMasterRead",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "qcdmodel",
+        "Type": "STAapimodels.QcdmasterModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "STAReportsAPI.Controllers.UserGroupsMappingController",
+    "Method": "Application_List",
+    "RelativePath": "Application_List",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "STAapi.Controllers.AuthController",
+    "Method": "GenerateToken",
+    "RelativePath": "auth/generate-token",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "STAReportsAPI.Controllers.LoginController",
+    "Method": "ChangePassword",
+    "RelativePath": "ChangePassword",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Obj",
+        "Type": "STAReportsAPI.Models.LoginModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "STAapi.Controllers.PresaleController",
+    "Method": "CheckMailTrigger",
+    "RelativePath": "CheckMailTrigger",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "iudObj1",
+        "Type": "STAapi.Models.mailModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "STAReportsAPI.Controllers.LoginController",
+    "Method": "ChkLogin",
+    "RelativePath": "ChkLogin",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "iudObj",
+        "Type": "STAReportsAPI.Models.LoginModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "STAapi.Controllers.DividendMasterController",
+    "Method": "CompDetails",
+    "RelativePath": "CompDetails",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "inscObj",
+        "Type": "STAapi.Models.CompanyDetailsModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "STAReportsAPI.Controllers.UserGroupsMappingController",
+    "Method": "CreateUserGroupsNew",
+    "RelativePath": "CreateUserGroupsNew",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "role_id",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "role_name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "role_code",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "user_id",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "app_code",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "role_status",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "STAReportsAPI.Controllers.UserGroupsMappingController",
+    "Method": "CreateUserGroupsNew_old",
+    "RelativePath": "CreateUserGroupsNewdfd",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "usergroup_gid",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "usergroup_name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "usergroup_code",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "app_code",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "usrgrpstatus",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "STAapi.Controllers.DividendMasterController",
+    "Method": "DividendList",
+    "RelativePath": "DividendList",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "insObj",
+        "Type": "STAapi.Models.DividendListRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "STAReportsAPI.Controllers.EmployeeMasterController",
+    "Method": "EmployeeDetails",
+    "RelativePath": "EmployeeDetails",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userid",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "sAction",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "STAapi.Controllers.PresaleController",
+    "Method": "getAuditdetails",
+    "RelativePath": "getAuditdetails",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "chrg_presale_gid",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "STAapi.Controllers.PresaleController",
+    "Method": "GetAuditList",
+    "RelativePath": "GetAuditList",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "presaleid",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "STAReportsAPI.Controllers.LoginController",
+    "Method": "GetChngPwdFlag",
+    "RelativePath": "GetChngPwdFlag",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "iudObj",
+        "Type": "STAReportsAPI.Models.LoginModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "STAReportsAPI.Controllers.ReportsController",
+    "Method": "getAuditdetails",
+    "RelativePath": "getCompanyRptDetails",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "line_no",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "start_date",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "end_date",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "STAapi.Controllers.DocumentController",
+    "Method": "GetDocList",
+    "RelativePath": "GetDocList",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "presaleid",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "STAReportsAPI.Controllers.EmployeeMasterController",
+    "Method": "GetEmpcheckedvaluedb",
+    "RelativePath": "GetEmpcheckedvaluedb",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "empid",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "STAapi.Controllers.PanValidationController",
+    "Method": "GetExpectedPanCount",
+    "RelativePath": "GetExpectedPanCount",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "STAapi.Models.ExpectedCountRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "STAapi.Controllers.PresaleController",
+    "Method": "getISINList",
+    "RelativePath": "getISINList",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "chrg_presale_gid",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "chrg_gid",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "start_date",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "end_date",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "status",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "STAapi.Controllers.PresaleController",
+    "Method": "GetISINMailDtl",
+    "RelativePath": "GetISINMailDtl",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "isinmail_gid",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "STAapi.Controllers.PresaleController",
+    "Method": "GetISINSerChrgDocDtl",
+    "RelativePath": "GetISINSerChrgDocDtl",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "chrgdoc_chrg_gid",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "STAapi.Controllers.PresaleController",
+    "Method": "GetISINSerChrgDtl",
+    "RelativePath": "GetISINSerChrgDtl",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "chrg_gid",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "STAReportsAPI.Controllers.LoginController",
+    "Method": "getMenu",
+    "RelativePath": "getMenu",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "objModel",
+        "Type": "STAReportsAPI.Models.LoginModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "STAReportsAPI.Controllers.ReportsController",
+    "Method": "GetMisReport",
+    "RelativePath": "GetMisReport",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "start_date",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "end_date",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "STAapi.Controllers.PresaleController",
+    "Method": "GetMstDocList",
+    "RelativePath": "GetMstDocList",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "doc_gid",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "in_action",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "in_docsub_category",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "STAapi.Controllers.PresaleController",
+    "Method": "GetMstList",
+    "RelativePath": "GetMstList",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "in_action",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "country_gid",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "state_gid",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "STAapi.Controllers.PresaleController",
+    "Method": "GetMstSecList",
+    "RelativePath": "GetMstSecList",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "in_action",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "sectype_gid",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "STAReportsAPI.Controllers.LoginController",
+    "Method": "getOTP",
+    "RelativePath": "getOTP",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "objModel",
+        "Type": "STAReportsAPI.Models.LoginModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "STAapi.Controllers.PresaleController",
+    "Method": "GetPresaleRenewalList",
+    "RelativePath": "GetPresaleRenewalList",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "STAapi.Controllers.SecurityTypeDtlController",
+    "Method": "GetSectypDtl",
+    "RelativePath": "GetSectypedtl",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "sectype_gid",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "STAReportsAPI.Controllers.EmployeeMasterController",
+    "Method": "GetTreeNodes",
+    "RelativePath": "GetTreeNodes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "STAapi.Controllers.RoleMasterController",
+    "Method": "GetUserRole",
+    "RelativePath": "GetUserRole",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userCode",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "STAapi.Controllers.RoleMasterController",
+    "Method": "GetUserrole_Mapping",
+    "RelativePath": "GetUserrole_Mapping",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "STAapi.Controllers.PresaleController",
+    "Method": "insemaildetails",
+    "RelativePath": "insemaildetails",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "insObj",
+        "Type": "STAapi.Models.mailinsertModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "STAapi.Controllers.PresaleController",
+    "Method": "insemaildetails1",
+    "RelativePath": "insemaildetails1",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "insObj",
+        "Type": "STAapi.Models.isinmailinsertModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "STAapi.Controllers.UserManagementController",
+    "Method": "InsUser",
+    "RelativePath": "InsUser",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "insObj",
+        "Type": "gnsastaapi.Models.UserManagementModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "STAapi.Controllers.DividendMasterController",
+    "Method": "IudDividend",
+    "RelativePath": "IudDividend",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "insObj",
+        "Type": "STAapi.Models.DividendMasterModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "STAapi.Controllers.DocumentController",
+    "Method": "Iuddoc",
+    "RelativePath": "IudDoc",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "iudObj",
+        "Type": "STAapi.Models.DocumentModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "STAapi.Controllers.PresaleController",
+    "Method": "IudISINSerChrg",
+    "RelativePath": "IudISINSerChrg",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "iudObj",
+        "Type": "STAapi.Models.isinservicecharges",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "STAapi.Controllers.PresaleController",
+    "Method": "IudISINSerChrgDoc",
+    "RelativePath": "IudISINSerChrgDoc",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "iudObj",
+        "Type": "STAapi.Models.isinservicechargesdoc",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "STAapi.Controllers.PresaleController",
+    "Method": "IudPresale",
+    "RelativePath": "IudPresale",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "iudObj",
+        "Type": "STAapi.Models.PresaleModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "STAapi.Controllers.RuleEngineController",
+    "Method": "IudRuleEngine",
+    "RelativePath": "IudRuleEngine",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "insObj",
+        "Type": "STAapi.Models.RuleEngineModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "STAapi.Controllers.SecurityTypeController",
+    "Method": "IudSectype",
+    "RelativePath": "IudSectype",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "mymodel",
+        "Type": "STAapi.Models.SecurityTypeModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "STAapi.Controllers.SecurityTypeDtlController",
+    "Method": "IudSectypeDtl",
+    "RelativePath": "IudSectypedtl",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "iudObj",
+        "Type": "STAapi.Models.SecurityTypeDtlModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "STAapi.Controllers.PanValidationController",
+    "Method": "PanUpdateProcess",
+    "RelativePath": "PanUpdateProcess",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "insObj",
+        "Type": "STAapi.Models.PanUpdateModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "STAapi.Controllers.PanValidationController",
+    "Method": "PanValidationProcess",
+    "RelativePath": "PanValidationProcess",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "insObj",
+        "Type": "STAapi.Models.PanValidationModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "STAapi.Controllers.PaymentHistoryController",
+    "Method": "PayHisDtllist",
+    "RelativePath": "PayHisDtllist",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "sectypeid",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "STAapi.Controllers.PaymentHistoryController",
+    "Method": "PayHislist",
+    "RelativePath": "PayHislist",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "presaleid",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "STAapi.Controllers.PresaleController",
+    "Method": "GetPresaleISINList",
+    "RelativePath": "PresaleISINList",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ActionTab",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "STAapi.Controllers.PresaleController",
+    "Method": "GetPresaleList",
+    "RelativePath": "PresaleList",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ActionTab",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "STAapi.Controllers.RoleMasterController",
+    "Method": "RoleList",
+    "RelativePath": "RoleList",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "STAReportsAPI.Controllers.UserGroupsMappingController",
+    "Method": "RoleMapping",
+    "RelativePath": "RoleMapping",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "role_code",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "app_code",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "STAapi.Controllers.RuleEngineController",
+    "Method": "RuleEngineList",
+    "RelativePath": "RuleEngineList",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "insObj",
+        "Type": "STAapi.Models.RuleEngineListRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "STAReportsAPI.Controllers.EmployeeMasterController",
+    "Method": "SaveEmployee",
+    "RelativePath": "SaveEmployee",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "EDtlObj",
+        "Type": "STAReportsAPI.Models.EmployeeMaster_Model",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "STAReportsAPI.Controllers.UserGroupsMappingController",
+    "Method": "SaveRolePermissions",
+    "RelativePath": "SaveRolePermissions",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "roleMappings",
+        "Type": "System.Collections.Generic.List\u00601[[STAReportsAPI.Models.UserGroups_Model\u002BRolePermissionDto, STAapi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "STAReportsAPI.Controllers.UserGroupsMappingController",
+    "Method": "SaveUserRoleMap",
+    "RelativePath": "SaveUserRoleMap",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "roleMappings",
+        "Type": "System.Collections.Generic.List\u00601[[STAReportsAPI.Models.UserGroups_Model\u002BRoleMappings, STAapi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "STAapi.Controllers.RoleMasterController",
+    "Method": "SaveUserRoles",
+    "RelativePath": "SaveUserRoles",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "STAapi.Models.SaveUserRolesRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "STAapi.Controllers.SecurityTypeController",
+    "Method": "GetSectypeList",
+    "RelativePath": "Sectypelist",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "presaleid",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "presaleversion",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "STAapi.Controllers.UserManagementController",
+    "Method": "UpdUser",
+    "RelativePath": "UpdUser",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "insObj",
+        "Type": "gnsastaapi.Models.UserManagementModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "STAReportsAPI.Controllers.LoginController",
+    "Method": "User_loginvalidate",
+    "RelativePath": "User_loginvalidate",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "iudObj",
+        "Type": "STAReportsAPI.Models.LoginModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "STAReportsAPI.Controllers.UserGroupsMappingController",
+    "Method": "UserGroups",
+    "RelativePath": "UserGroups",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "STAapi.Controllers.UserManagementController",
+    "Method": "UsersList",
+    "RelativePath": "UsersList",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "STAReportsAPI.Controllers.LoginController",
+    "Method": "validateOTP",
+    "RelativePath": "validateOTP",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "objModel",
+        "Type": "STAReportsAPI.Models.LoginModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "STAReportsAPI.Controllers.WeatherForecastController",
+    "Method": "Get",
+    "RelativePath": "WeatherForecast",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[STAReportsAPI.WeatherForecast, STAapi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetWeatherForecast"
+  }
+]

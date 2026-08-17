@@ -1,0 +1,607 @@
+E:\Hariharan\STAWeb\STAapi\STARegistrationAPI\bin\Debug\net8.0\.filenesting.json
+E:\Hariharan\STAWeb\STAapi\STARegistrationAPI\bin\Debug\net8.0\appsettings.Development.json
+E:\Hariharan\STAWeb\STAapi\STARegistrationAPI\bin\Debug\net8.0\appsettings.json
+E:\Hariharan\STAWeb\STAapi\STARegistrationAPI\bin\Debug\net8.0\STAapi.staticwebassets.endpoints.json
+E:\Hariharan\STAWeb\STAapi\STARegistrationAPI\bin\Debug\net8.0\STAapi.exe
+E:\Hariharan\STAWeb\STAapi\STARegistrationAPI\bin\Debug\net8.0\STAapi.deps.json
+E:\Hariharan\STAWeb\STAapi\STARegistrationAPI\bin\Debug\net8.0\STAapi.runtimeconfig.json
+E:\Hariharan\STAWeb\STAapi\STARegistrationAPI\bin\Debug\net8.0\STAapi.dll
+E:\Hariharan\STAWeb\STAapi\STARegistrationAPI\bin\Debug\net8.0\STAapi.pdb
+E:\Hariharan\STAWeb\STAapi\STARegistrationAPI\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
+E:\Hariharan\STAWeb\STAapi\STARegistrationAPI\bin\Debug\net8.0\Google.Protobuf.dll
+E:\Hariharan\STAWeb\STAapi\STARegistrationAPI\bin\Debug\net8.0\K4os.Compression.LZ4.dll
+E:\Hariharan\STAWeb\STAapi\STARegistrationAPI\bin\Debug\net8.0\K4os.Compression.LZ4.Streams.dll
+E:\Hariharan\STAWeb\STAapi\STARegistrationAPI\bin\Debug\net8.0\K4os.Hash.xxHash.dll
+E:\Hariharan\STAWeb\STAapi\STARegistrationAPI\bin\Debug\net8.0\log4net.dll
+E:\Hariharan\STAWeb\STAapi\STARegistrationAPI\bin\Debug\net8.0\Microsoft.AspNetCore.OpenApi.dll
+E:\Hariharan\STAWeb\STAapi\STARegistrationAPI\bin\Debug\net8.0\Microsoft.OpenApi.dll
+E:\Hariharan\STAWeb\STAapi\STARegistrationAPI\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+E:\Hariharan\STAWeb\STAapi\STARegistrationAPI\bin\Debug\net8.0\MySql.Data.dll
+E:\Hariharan\STAWeb\STAapi\STARegistrationAPI\bin\Debug\net8.0\Newtonsoft.Json.dll
+E:\Hariharan\STAWeb\STAapi\STARegistrationAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+E:\Hariharan\STAWeb\STAapi\STARegistrationAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+E:\Hariharan\STAWeb\STAapi\STARegistrationAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+E:\Hariharan\STAWeb\STAapi\STARegistrationAPI\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+E:\Hariharan\STAWeb\STAapi\STARegistrationAPI\bin\Debug\net8.0\System.Drawing.Common.dll
+E:\Hariharan\STAWeb\STAapi\STARegistrationAPI\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+E:\Hariharan\STAWeb\STAapi\STARegistrationAPI\bin\Debug\net8.0\System.Security.Permissions.dll
+E:\Hariharan\STAWeb\STAapi\STARegistrationAPI\bin\Debug\net8.0\System.Windows.Extensions.dll
+E:\Hariharan\STAWeb\STAapi\STARegistrationAPI\bin\Debug\net8.0\ZstdSharp.dll
+E:\Hariharan\STAWeb\STAapi\STARegistrationAPI\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+E:\Hariharan\STAWeb\STAapi\STARegistrationAPI\bin\Debug\net8.0\runtimes\win-x64\native\comerr64.dll
+E:\Hariharan\STAWeb\STAapi\STARegistrationAPI\bin\Debug\net8.0\runtimes\win-x64\native\gssapi64.dll
+E:\Hariharan\STAWeb\STAapi\STARegistrationAPI\bin\Debug\net8.0\runtimes\win-x64\native\k5sprt64.dll
+E:\Hariharan\STAWeb\STAapi\STARegistrationAPI\bin\Debug\net8.0\runtimes\win-x64\native\krb5_64.dll
+E:\Hariharan\STAWeb\STAapi\STARegistrationAPI\bin\Debug\net8.0\runtimes\win-x64\native\krbcc64.dll
+E:\Hariharan\STAWeb\STAapi\STARegistrationAPI\bin\Debug\net8.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+E:\Hariharan\STAWeb\STAapi\STARegistrationAPI\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+E:\Hariharan\STAWeb\STAapi\STARegistrationAPI\bin\Debug\net8.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+E:\Hariharan\STAWeb\STAapi\STARegistrationAPI\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+E:\Hariharan\STAWeb\STAapi\STARegistrationAPI\obj\Debug\net8.0\STAapi.csproj.AssemblyReference.cache
+E:\Hariharan\STAWeb\STAapi\STARegistrationAPI\obj\Debug\net8.0\rpswa.dswa.cache.json
+E:\Hariharan\STAWeb\STAapi\STARegistrationAPI\obj\Debug\net8.0\STAapi.GeneratedMSBuildEditorConfig.editorconfig
+E:\Hariharan\STAWeb\STAapi\STARegistrationAPI\obj\Debug\net8.0\STAapi.AssemblyInfoInputs.cache
+E:\Hariharan\STAWeb\STAapi\STARegistrationAPI\obj\Debug\net8.0\STAapi.AssemblyInfo.cs
+E:\Hariharan\STAWeb\STAapi\STARegistrationAPI\obj\Debug\net8.0\STAapi.csproj.CoreCompileInputs.cache
+E:\Hariharan\STAWeb\STAapi\STARegistrationAPI\obj\Debug\net8.0\STAapi.MvcApplicationPartsAssemblyInfo.cs
+E:\Hariharan\STAWeb\STAapi\STARegistrationAPI\obj\Debug\net8.0\STAapi.MvcApplicationPartsAssemblyInfo.cache
+E:\Hariharan\STAWeb\STAapi\STARegistrationAPI\obj\Debug\net8.0\STAapi.sourcelink.json
+E:\Hariharan\STAWeb\STAapi\STARegistrationAPI\obj\Debug\net8.0\rjimswa.dswa.cache.json
+E:\Hariharan\STAWeb\STAapi\STARegistrationAPI\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+E:\Hariharan\STAWeb\STAapi\STARegistrationAPI\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+E:\Hariharan\STAWeb\STAapi\STARegistrationAPI\obj\Debug\net8.0\scopedcss\bundle\STAapi.styles.css
+E:\Hariharan\STAWeb\STAapi\STARegistrationAPI\obj\Debug\net8.0\staticwebassets.build.json
+E:\Hariharan\STAWeb\STAapi\STARegistrationAPI\obj\Debug\net8.0\staticwebassets.build.json.cache
+E:\Hariharan\STAWeb\STAapi\STARegistrationAPI\obj\Debug\net8.0\staticwebassets.development.json
+E:\Hariharan\STAWeb\STAapi\STARegistrationAPI\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+E:\Hariharan\STAWeb\STAapi\STARegistrationAPI\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+E:\Hariharan\STAWeb\STAapi\STARegistrationAPI\obj\Debug\net8.0\STAapi.csproj.Up2Date
+E:\Hariharan\STAWeb\STAapi\STARegistrationAPI\obj\Debug\net8.0\STAapi.dll
+E:\Hariharan\STAWeb\STAapi\STARegistrationAPI\obj\Debug\net8.0\refint\STAapi.dll
+E:\Hariharan\STAWeb\STAapi\STARegistrationAPI\obj\Debug\net8.0\STAapi.pdb
+E:\Hariharan\STAWeb\STAapi\STARegistrationAPI\obj\Debug\net8.0\STAapi.genruntimeconfig.cache
+E:\Hariharan\STAWeb\STAapi\STARegistrationAPI\obj\Debug\net8.0\ref\STAapi.dll
+E:\Hariharan\STAWeb\STAapi\bin\Debug\net8.0\.filenesting.json
+E:\Hariharan\STAWeb\STAapi\bin\Debug\net8.0\appsettings.Development.json
+E:\Hariharan\STAWeb\STAapi\bin\Debug\net8.0\appsettings.json
+E:\Hariharan\STAWeb\STAapi\bin\Debug\net8.0\STAapi.staticwebassets.endpoints.json
+E:\Hariharan\STAWeb\STAapi\bin\Debug\net8.0\STAapi.exe
+E:\Hariharan\STAWeb\STAapi\bin\Debug\net8.0\STAapi.deps.json
+E:\Hariharan\STAWeb\STAapi\bin\Debug\net8.0\STAapi.runtimeconfig.json
+E:\Hariharan\STAWeb\STAapi\bin\Debug\net8.0\STAapi.dll
+E:\Hariharan\STAWeb\STAapi\bin\Debug\net8.0\STAapi.pdb
+E:\Hariharan\STAWeb\STAapi\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
+E:\Hariharan\STAWeb\STAapi\bin\Debug\net8.0\Google.Protobuf.dll
+E:\Hariharan\STAWeb\STAapi\bin\Debug\net8.0\K4os.Compression.LZ4.dll
+E:\Hariharan\STAWeb\STAapi\bin\Debug\net8.0\K4os.Compression.LZ4.Streams.dll
+E:\Hariharan\STAWeb\STAapi\bin\Debug\net8.0\K4os.Hash.xxHash.dll
+E:\Hariharan\STAWeb\STAapi\bin\Debug\net8.0\log4net.dll
+E:\Hariharan\STAWeb\STAapi\bin\Debug\net8.0\Microsoft.AspNetCore.OpenApi.dll
+E:\Hariharan\STAWeb\STAapi\bin\Debug\net8.0\Microsoft.OpenApi.dll
+E:\Hariharan\STAWeb\STAapi\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+E:\Hariharan\STAWeb\STAapi\bin\Debug\net8.0\MySql.Data.dll
+E:\Hariharan\STAWeb\STAapi\bin\Debug\net8.0\Newtonsoft.Json.dll
+E:\Hariharan\STAWeb\STAapi\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+E:\Hariharan\STAWeb\STAapi\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+E:\Hariharan\STAWeb\STAapi\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+E:\Hariharan\STAWeb\STAapi\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+E:\Hariharan\STAWeb\STAapi\bin\Debug\net8.0\System.Drawing.Common.dll
+E:\Hariharan\STAWeb\STAapi\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+E:\Hariharan\STAWeb\STAapi\bin\Debug\net8.0\System.Security.Permissions.dll
+E:\Hariharan\STAWeb\STAapi\bin\Debug\net8.0\System.Windows.Extensions.dll
+E:\Hariharan\STAWeb\STAapi\bin\Debug\net8.0\ZstdSharp.dll
+E:\Hariharan\STAWeb\STAapi\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+E:\Hariharan\STAWeb\STAapi\bin\Debug\net8.0\runtimes\win-x64\native\comerr64.dll
+E:\Hariharan\STAWeb\STAapi\bin\Debug\net8.0\runtimes\win-x64\native\gssapi64.dll
+E:\Hariharan\STAWeb\STAapi\bin\Debug\net8.0\runtimes\win-x64\native\k5sprt64.dll
+E:\Hariharan\STAWeb\STAapi\bin\Debug\net8.0\runtimes\win-x64\native\krb5_64.dll
+E:\Hariharan\STAWeb\STAapi\bin\Debug\net8.0\runtimes\win-x64\native\krbcc64.dll
+E:\Hariharan\STAWeb\STAapi\bin\Debug\net8.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+E:\Hariharan\STAWeb\STAapi\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+E:\Hariharan\STAWeb\STAapi\bin\Debug\net8.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+E:\Hariharan\STAWeb\STAapi\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+E:\Hariharan\STAWeb\STAapi\obj\Debug\net8.0\STAapi.csproj.AssemblyReference.cache
+E:\Hariharan\STAWeb\STAapi\obj\Debug\net8.0\rpswa.dswa.cache.json
+E:\Hariharan\STAWeb\STAapi\obj\Debug\net8.0\STAapi.GeneratedMSBuildEditorConfig.editorconfig
+E:\Hariharan\STAWeb\STAapi\obj\Debug\net8.0\STAapi.AssemblyInfoInputs.cache
+E:\Hariharan\STAWeb\STAapi\obj\Debug\net8.0\STAapi.AssemblyInfo.cs
+E:\Hariharan\STAWeb\STAapi\obj\Debug\net8.0\STAapi.csproj.CoreCompileInputs.cache
+E:\Hariharan\STAWeb\STAapi\obj\Debug\net8.0\STAapi.MvcApplicationPartsAssemblyInfo.cs
+E:\Hariharan\STAWeb\STAapi\obj\Debug\net8.0\STAapi.MvcApplicationPartsAssemblyInfo.cache
+E:\Hariharan\STAWeb\STAapi\obj\Debug\net8.0\STAapi.sourcelink.json
+E:\Hariharan\STAWeb\STAapi\obj\Debug\net8.0\rjimswa.dswa.cache.json
+E:\Hariharan\STAWeb\STAapi\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+E:\Hariharan\STAWeb\STAapi\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+E:\Hariharan\STAWeb\STAapi\obj\Debug\net8.0\scopedcss\bundle\STAapi.styles.css
+E:\Hariharan\STAWeb\STAapi\obj\Debug\net8.0\staticwebassets.build.json
+E:\Hariharan\STAWeb\STAapi\obj\Debug\net8.0\staticwebassets.build.json.cache
+E:\Hariharan\STAWeb\STAapi\obj\Debug\net8.0\staticwebassets.development.json
+E:\Hariharan\STAWeb\STAapi\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+E:\Hariharan\STAWeb\STAapi\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+E:\Hariharan\STAWeb\STAapi\obj\Debug\net8.0\STAapi.csproj.Up2Date
+E:\Hariharan\STAWeb\STAapi\obj\Debug\net8.0\STAapi.dll
+E:\Hariharan\STAWeb\STAapi\obj\Debug\net8.0\refint\STAapi.dll
+E:\Hariharan\STAWeb\STAapi\obj\Debug\net8.0\STAapi.pdb
+E:\Hariharan\STAWeb\STAapi\obj\Debug\net8.0\STAapi.genruntimeconfig.cache
+E:\Hariharan\STAWeb\STAapi\obj\Debug\net8.0\ref\STAapi.dll
+E:\Hariharan\STAWeb\STAapi\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+E:\Hariharan\STAWeb\STAapi\bin\Debug\net8.0\Serilog.dll
+E:\Hariharan\STAWeb\STAapi\bin\Debug\net8.0\Serilog.AspNetCore.dll
+E:\Hariharan\STAWeb\STAapi\bin\Debug\net8.0\Serilog.Extensions.Hosting.dll
+E:\Hariharan\STAWeb\STAapi\bin\Debug\net8.0\Serilog.Extensions.Logging.dll
+E:\Hariharan\STAWeb\STAapi\bin\Debug\net8.0\Serilog.Formatting.Compact.dll
+E:\Hariharan\STAWeb\STAapi\bin\Debug\net8.0\Serilog.Settings.Configuration.dll
+E:\Hariharan\STAWeb\STAapi\bin\Debug\net8.0\Serilog.Sinks.Console.dll
+E:\Hariharan\STAWeb\STAapi\bin\Debug\net8.0\Serilog.Sinks.Debug.dll
+E:\Hariharan\STAWeb\STAapi\bin\Debug\net8.0\Serilog.Sinks.File.dll
+E:\Venki Shared Project\STAWeb_Final\STAWeb\STAapi\bin\Debug\net8.0\.filenesting.json
+E:\Venki Shared Project\STAWeb_Final\STAWeb\STAapi\bin\Debug\net8.0\appsettings.Development.json
+E:\Venki Shared Project\STAWeb_Final\STAWeb\STAapi\bin\Debug\net8.0\appsettings.json
+E:\Venki Shared Project\STAWeb_Final\STAWeb\STAapi\bin\Debug\net8.0\STAapi.staticwebassets.endpoints.json
+E:\Venki Shared Project\STAWeb_Final\STAWeb\STAapi\bin\Debug\net8.0\STAapi.exe
+E:\Venki Shared Project\STAWeb_Final\STAWeb\STAapi\bin\Debug\net8.0\STAapi.deps.json
+E:\Venki Shared Project\STAWeb_Final\STAWeb\STAapi\bin\Debug\net8.0\STAapi.runtimeconfig.json
+E:\Venki Shared Project\STAWeb_Final\STAWeb\STAapi\bin\Debug\net8.0\STAapi.dll
+E:\Venki Shared Project\STAWeb_Final\STAWeb\STAapi\bin\Debug\net8.0\STAapi.pdb
+E:\Venki Shared Project\STAWeb_Final\STAWeb\STAapi\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
+E:\Venki Shared Project\STAWeb_Final\STAWeb\STAapi\bin\Debug\net8.0\Google.Protobuf.dll
+E:\Venki Shared Project\STAWeb_Final\STAWeb\STAapi\bin\Debug\net8.0\K4os.Compression.LZ4.dll
+E:\Venki Shared Project\STAWeb_Final\STAWeb\STAapi\bin\Debug\net8.0\K4os.Compression.LZ4.Streams.dll
+E:\Venki Shared Project\STAWeb_Final\STAWeb\STAapi\bin\Debug\net8.0\K4os.Hash.xxHash.dll
+E:\Venki Shared Project\STAWeb_Final\STAWeb\STAapi\bin\Debug\net8.0\log4net.dll
+E:\Venki Shared Project\STAWeb_Final\STAWeb\STAapi\bin\Debug\net8.0\Microsoft.AspNetCore.OpenApi.dll
+E:\Venki Shared Project\STAWeb_Final\STAWeb\STAapi\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+E:\Venki Shared Project\STAWeb_Final\STAWeb\STAapi\bin\Debug\net8.0\Microsoft.OpenApi.dll
+E:\Venki Shared Project\STAWeb_Final\STAWeb\STAapi\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+E:\Venki Shared Project\STAWeb_Final\STAWeb\STAapi\bin\Debug\net8.0\MySql.Data.dll
+E:\Venki Shared Project\STAWeb_Final\STAWeb\STAapi\bin\Debug\net8.0\Newtonsoft.Json.dll
+E:\Venki Shared Project\STAWeb_Final\STAWeb\STAapi\bin\Debug\net8.0\Serilog.dll
+E:\Venki Shared Project\STAWeb_Final\STAWeb\STAapi\bin\Debug\net8.0\Serilog.AspNetCore.dll
+E:\Venki Shared Project\STAWeb_Final\STAWeb\STAapi\bin\Debug\net8.0\Serilog.Extensions.Hosting.dll
+E:\Venki Shared Project\STAWeb_Final\STAWeb\STAapi\bin\Debug\net8.0\Serilog.Extensions.Logging.dll
+E:\Venki Shared Project\STAWeb_Final\STAWeb\STAapi\bin\Debug\net8.0\Serilog.Formatting.Compact.dll
+E:\Venki Shared Project\STAWeb_Final\STAWeb\STAapi\bin\Debug\net8.0\Serilog.Settings.Configuration.dll
+E:\Venki Shared Project\STAWeb_Final\STAWeb\STAapi\bin\Debug\net8.0\Serilog.Sinks.Console.dll
+E:\Venki Shared Project\STAWeb_Final\STAWeb\STAapi\bin\Debug\net8.0\Serilog.Sinks.Debug.dll
+E:\Venki Shared Project\STAWeb_Final\STAWeb\STAapi\bin\Debug\net8.0\Serilog.Sinks.File.dll
+E:\Venki Shared Project\STAWeb_Final\STAWeb\STAapi\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+E:\Venki Shared Project\STAWeb_Final\STAWeb\STAapi\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+E:\Venki Shared Project\STAWeb_Final\STAWeb\STAapi\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+E:\Venki Shared Project\STAWeb_Final\STAWeb\STAapi\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+E:\Venki Shared Project\STAWeb_Final\STAWeb\STAapi\bin\Debug\net8.0\System.Drawing.Common.dll
+E:\Venki Shared Project\STAWeb_Final\STAWeb\STAapi\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+E:\Venki Shared Project\STAWeb_Final\STAWeb\STAapi\bin\Debug\net8.0\System.Security.Permissions.dll
+E:\Venki Shared Project\STAWeb_Final\STAWeb\STAapi\bin\Debug\net8.0\System.Windows.Extensions.dll
+E:\Venki Shared Project\STAWeb_Final\STAWeb\STAapi\bin\Debug\net8.0\ZstdSharp.dll
+E:\Venki Shared Project\STAWeb_Final\STAWeb\STAapi\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+E:\Venki Shared Project\STAWeb_Final\STAWeb\STAapi\bin\Debug\net8.0\runtimes\win-x64\native\comerr64.dll
+E:\Venki Shared Project\STAWeb_Final\STAWeb\STAapi\bin\Debug\net8.0\runtimes\win-x64\native\gssapi64.dll
+E:\Venki Shared Project\STAWeb_Final\STAWeb\STAapi\bin\Debug\net8.0\runtimes\win-x64\native\k5sprt64.dll
+E:\Venki Shared Project\STAWeb_Final\STAWeb\STAapi\bin\Debug\net8.0\runtimes\win-x64\native\krb5_64.dll
+E:\Venki Shared Project\STAWeb_Final\STAWeb\STAapi\bin\Debug\net8.0\runtimes\win-x64\native\krbcc64.dll
+E:\Venki Shared Project\STAWeb_Final\STAWeb\STAapi\bin\Debug\net8.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+E:\Venki Shared Project\STAWeb_Final\STAWeb\STAapi\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+E:\Venki Shared Project\STAWeb_Final\STAWeb\STAapi\bin\Debug\net8.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+E:\Venki Shared Project\STAWeb_Final\STAWeb\STAapi\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+E:\Venki Shared Project\STAWeb_Final\STAWeb\STAapi\obj\Debug\net8.0\STAapi.csproj.AssemblyReference.cache
+E:\Venki Shared Project\STAWeb_Final\STAWeb\STAapi\obj\Debug\net8.0\rpswa.dswa.cache.json
+E:\Venki Shared Project\STAWeb_Final\STAWeb\STAapi\obj\Debug\net8.0\STAapi.GeneratedMSBuildEditorConfig.editorconfig
+E:\Venki Shared Project\STAWeb_Final\STAWeb\STAapi\obj\Debug\net8.0\STAapi.AssemblyInfoInputs.cache
+E:\Venki Shared Project\STAWeb_Final\STAWeb\STAapi\obj\Debug\net8.0\STAapi.AssemblyInfo.cs
+E:\Venki Shared Project\STAWeb_Final\STAWeb\STAapi\obj\Debug\net8.0\STAapi.csproj.CoreCompileInputs.cache
+E:\Venki Shared Project\STAWeb_Final\STAWeb\STAapi\obj\Debug\net8.0\STAapi.MvcApplicationPartsAssemblyInfo.cs
+E:\Venki Shared Project\STAWeb_Final\STAWeb\STAapi\obj\Debug\net8.0\STAapi.MvcApplicationPartsAssemblyInfo.cache
+E:\Venki Shared Project\STAWeb_Final\STAWeb\STAapi\obj\Debug\net8.0\STAapi.sourcelink.json
+E:\Venki Shared Project\STAWeb_Final\STAWeb\STAapi\obj\Debug\net8.0\rjimswa.dswa.cache.json
+E:\Venki Shared Project\STAWeb_Final\STAWeb\STAapi\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+E:\Venki Shared Project\STAWeb_Final\STAWeb\STAapi\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+E:\Venki Shared Project\STAWeb_Final\STAWeb\STAapi\obj\Debug\net8.0\scopedcss\bundle\STAapi.styles.css
+E:\Venki Shared Project\STAWeb_Final\STAWeb\STAapi\obj\Debug\net8.0\staticwebassets.build.json
+E:\Venki Shared Project\STAWeb_Final\STAWeb\STAapi\obj\Debug\net8.0\staticwebassets.build.json.cache
+E:\Venki Shared Project\STAWeb_Final\STAWeb\STAapi\obj\Debug\net8.0\staticwebassets.development.json
+E:\Venki Shared Project\STAWeb_Final\STAWeb\STAapi\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+E:\Venki Shared Project\STAWeb_Final\STAWeb\STAapi\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+E:\Venki Shared Project\STAWeb_Final\STAWeb\STAapi\obj\Debug\net8.0\STAapi.csproj.Up2Date
+E:\Venki Shared Project\STAWeb_Final\STAWeb\STAapi\obj\Debug\net8.0\STAapi.dll
+E:\Venki Shared Project\STAWeb_Final\STAWeb\STAapi\obj\Debug\net8.0\refint\STAapi.dll
+E:\Venki Shared Project\STAWeb_Final\STAWeb\STAapi\obj\Debug\net8.0\STAapi.pdb
+E:\Venki Shared Project\STAWeb_Final\STAWeb\STAapi\obj\Debug\net8.0\STAapi.genruntimeconfig.cache
+E:\Venki Shared Project\STAWeb_Final\STAWeb\STAapi\obj\Debug\net8.0\ref\STAapi.dll
+E:\Venki Shared Project\STAWeb_Final\STAWeb\STAWeb\STAapi\bin\Debug\net8.0\.filenesting.json
+E:\Venki Shared Project\STAWeb_Final\STAWeb\STAWeb\STAapi\bin\Debug\net8.0\appsettings.Development.json
+E:\Venki Shared Project\STAWeb_Final\STAWeb\STAWeb\STAapi\bin\Debug\net8.0\appsettings.json
+E:\Venki Shared Project\STAWeb_Final\STAWeb\STAWeb\STAapi\bin\Debug\net8.0\STAapi.staticwebassets.endpoints.json
+E:\Venki Shared Project\STAWeb_Final\STAWeb\STAWeb\STAapi\bin\Debug\net8.0\STAapi.exe
+E:\Venki Shared Project\STAWeb_Final\STAWeb\STAWeb\STAapi\bin\Debug\net8.0\STAapi.deps.json
+E:\Venki Shared Project\STAWeb_Final\STAWeb\STAWeb\STAapi\bin\Debug\net8.0\STAapi.runtimeconfig.json
+E:\Venki Shared Project\STAWeb_Final\STAWeb\STAWeb\STAapi\bin\Debug\net8.0\STAapi.dll
+E:\Venki Shared Project\STAWeb_Final\STAWeb\STAWeb\STAapi\bin\Debug\net8.0\STAapi.pdb
+E:\Venki Shared Project\STAWeb_Final\STAWeb\STAWeb\STAapi\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
+E:\Venki Shared Project\STAWeb_Final\STAWeb\STAWeb\STAapi\bin\Debug\net8.0\Google.Protobuf.dll
+E:\Venki Shared Project\STAWeb_Final\STAWeb\STAWeb\STAapi\bin\Debug\net8.0\K4os.Compression.LZ4.dll
+E:\Venki Shared Project\STAWeb_Final\STAWeb\STAWeb\STAapi\bin\Debug\net8.0\K4os.Compression.LZ4.Streams.dll
+E:\Venki Shared Project\STAWeb_Final\STAWeb\STAWeb\STAapi\bin\Debug\net8.0\K4os.Hash.xxHash.dll
+E:\Venki Shared Project\STAWeb_Final\STAWeb\STAWeb\STAapi\bin\Debug\net8.0\log4net.dll
+E:\Venki Shared Project\STAWeb_Final\STAWeb\STAWeb\STAapi\bin\Debug\net8.0\Microsoft.AspNetCore.OpenApi.dll
+E:\Venki Shared Project\STAWeb_Final\STAWeb\STAWeb\STAapi\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+E:\Venki Shared Project\STAWeb_Final\STAWeb\STAWeb\STAapi\bin\Debug\net8.0\Microsoft.OpenApi.dll
+E:\Venki Shared Project\STAWeb_Final\STAWeb\STAWeb\STAapi\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+E:\Venki Shared Project\STAWeb_Final\STAWeb\STAWeb\STAapi\bin\Debug\net8.0\MySql.Data.dll
+E:\Venki Shared Project\STAWeb_Final\STAWeb\STAWeb\STAapi\bin\Debug\net8.0\Newtonsoft.Json.dll
+E:\Venki Shared Project\STAWeb_Final\STAWeb\STAWeb\STAapi\bin\Debug\net8.0\Serilog.dll
+E:\Venki Shared Project\STAWeb_Final\STAWeb\STAWeb\STAapi\bin\Debug\net8.0\Serilog.AspNetCore.dll
+E:\Venki Shared Project\STAWeb_Final\STAWeb\STAWeb\STAapi\bin\Debug\net8.0\Serilog.Extensions.Hosting.dll
+E:\Venki Shared Project\STAWeb_Final\STAWeb\STAWeb\STAapi\bin\Debug\net8.0\Serilog.Extensions.Logging.dll
+E:\Venki Shared Project\STAWeb_Final\STAWeb\STAWeb\STAapi\bin\Debug\net8.0\Serilog.Formatting.Compact.dll
+E:\Venki Shared Project\STAWeb_Final\STAWeb\STAWeb\STAapi\bin\Debug\net8.0\Serilog.Settings.Configuration.dll
+E:\Venki Shared Project\STAWeb_Final\STAWeb\STAWeb\STAapi\bin\Debug\net8.0\Serilog.Sinks.Console.dll
+E:\Venki Shared Project\STAWeb_Final\STAWeb\STAWeb\STAapi\bin\Debug\net8.0\Serilog.Sinks.Debug.dll
+E:\Venki Shared Project\STAWeb_Final\STAWeb\STAWeb\STAapi\bin\Debug\net8.0\Serilog.Sinks.File.dll
+E:\Venki Shared Project\STAWeb_Final\STAWeb\STAWeb\STAapi\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+E:\Venki Shared Project\STAWeb_Final\STAWeb\STAWeb\STAapi\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+E:\Venki Shared Project\STAWeb_Final\STAWeb\STAWeb\STAapi\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+E:\Venki Shared Project\STAWeb_Final\STAWeb\STAWeb\STAapi\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+E:\Venki Shared Project\STAWeb_Final\STAWeb\STAWeb\STAapi\bin\Debug\net8.0\System.Drawing.Common.dll
+E:\Venki Shared Project\STAWeb_Final\STAWeb\STAWeb\STAapi\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+E:\Venki Shared Project\STAWeb_Final\STAWeb\STAWeb\STAapi\bin\Debug\net8.0\System.Security.Permissions.dll
+E:\Venki Shared Project\STAWeb_Final\STAWeb\STAWeb\STAapi\bin\Debug\net8.0\System.Windows.Extensions.dll
+E:\Venki Shared Project\STAWeb_Final\STAWeb\STAWeb\STAapi\bin\Debug\net8.0\ZstdSharp.dll
+E:\Venki Shared Project\STAWeb_Final\STAWeb\STAWeb\STAapi\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+E:\Venki Shared Project\STAWeb_Final\STAWeb\STAWeb\STAapi\bin\Debug\net8.0\runtimes\win-x64\native\comerr64.dll
+E:\Venki Shared Project\STAWeb_Final\STAWeb\STAWeb\STAapi\bin\Debug\net8.0\runtimes\win-x64\native\gssapi64.dll
+E:\Venki Shared Project\STAWeb_Final\STAWeb\STAWeb\STAapi\bin\Debug\net8.0\runtimes\win-x64\native\k5sprt64.dll
+E:\Venki Shared Project\STAWeb_Final\STAWeb\STAWeb\STAapi\bin\Debug\net8.0\runtimes\win-x64\native\krb5_64.dll
+E:\Venki Shared Project\STAWeb_Final\STAWeb\STAWeb\STAapi\bin\Debug\net8.0\runtimes\win-x64\native\krbcc64.dll
+E:\Venki Shared Project\STAWeb_Final\STAWeb\STAWeb\STAapi\bin\Debug\net8.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+E:\Venki Shared Project\STAWeb_Final\STAWeb\STAWeb\STAapi\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+E:\Venki Shared Project\STAWeb_Final\STAWeb\STAWeb\STAapi\bin\Debug\net8.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+E:\Venki Shared Project\STAWeb_Final\STAWeb\STAWeb\STAapi\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+E:\Venki Shared Project\STAWeb_Final\STAWeb\STAWeb\STAapi\obj\Debug\net8.0\STAapi.csproj.AssemblyReference.cache
+E:\Venki Shared Project\STAWeb_Final\STAWeb\STAWeb\STAapi\obj\Debug\net8.0\rpswa.dswa.cache.json
+E:\Venki Shared Project\STAWeb_Final\STAWeb\STAWeb\STAapi\obj\Debug\net8.0\STAapi.GeneratedMSBuildEditorConfig.editorconfig
+E:\Venki Shared Project\STAWeb_Final\STAWeb\STAWeb\STAapi\obj\Debug\net8.0\STAapi.AssemblyInfoInputs.cache
+E:\Venki Shared Project\STAWeb_Final\STAWeb\STAWeb\STAapi\obj\Debug\net8.0\STAapi.AssemblyInfo.cs
+E:\Venki Shared Project\STAWeb_Final\STAWeb\STAWeb\STAapi\obj\Debug\net8.0\STAapi.csproj.CoreCompileInputs.cache
+E:\Venki Shared Project\STAWeb_Final\STAWeb\STAWeb\STAapi\obj\Debug\net8.0\STAapi.MvcApplicationPartsAssemblyInfo.cs
+E:\Venki Shared Project\STAWeb_Final\STAWeb\STAWeb\STAapi\obj\Debug\net8.0\STAapi.MvcApplicationPartsAssemblyInfo.cache
+E:\Venki Shared Project\STAWeb_Final\STAWeb\STAWeb\STAapi\obj\Debug\net8.0\STAapi.sourcelink.json
+E:\Venki Shared Project\STAWeb_Final\STAWeb\STAWeb\STAapi\obj\Debug\net8.0\rjimswa.dswa.cache.json
+E:\Venki Shared Project\STAWeb_Final\STAWeb\STAWeb\STAapi\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+E:\Venki Shared Project\STAWeb_Final\STAWeb\STAWeb\STAapi\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+E:\Venki Shared Project\STAWeb_Final\STAWeb\STAWeb\STAapi\obj\Debug\net8.0\scopedcss\bundle\STAapi.styles.css
+E:\Venki Shared Project\STAWeb_Final\STAWeb\STAWeb\STAapi\obj\Debug\net8.0\staticwebassets.build.json
+E:\Venki Shared Project\STAWeb_Final\STAWeb\STAWeb\STAapi\obj\Debug\net8.0\staticwebassets.build.json.cache
+E:\Venki Shared Project\STAWeb_Final\STAWeb\STAWeb\STAapi\obj\Debug\net8.0\staticwebassets.development.json
+E:\Venki Shared Project\STAWeb_Final\STAWeb\STAWeb\STAapi\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+E:\Venki Shared Project\STAWeb_Final\STAWeb\STAWeb\STAapi\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+E:\Venki Shared Project\STAWeb_Final\STAWeb\STAWeb\STAapi\obj\Debug\net8.0\STAapi.csproj.Up2Date
+E:\Venki Shared Project\STAWeb_Final\STAWeb\STAWeb\STAapi\obj\Debug\net8.0\STAapi.dll
+E:\Venki Shared Project\STAWeb_Final\STAWeb\STAWeb\STAapi\obj\Debug\net8.0\refint\STAapi.dll
+E:\Venki Shared Project\STAWeb_Final\STAWeb\STAWeb\STAapi\obj\Debug\net8.0\STAapi.pdb
+E:\Venki Shared Project\STAWeb_Final\STAWeb\STAWeb\STAapi\obj\Debug\net8.0\STAapi.genruntimeconfig.cache
+E:\Venki Shared Project\STAWeb_Final\STAWeb\STAWeb\STAapi\obj\Debug\net8.0\ref\STAapi.dll
+F:\SDA\STAWeb_05-02-2026\STAapi\bin\Debug\net8.0\.filenesting.json
+F:\SDA\STAWeb_05-02-2026\STAapi\bin\Debug\net8.0\appsettings.Development.json
+F:\SDA\STAWeb_05-02-2026\STAapi\bin\Debug\net8.0\appsettings.json
+F:\SDA\STAWeb_05-02-2026\STAapi\bin\Debug\net8.0\STAapi.staticwebassets.endpoints.json
+F:\SDA\STAWeb_05-02-2026\STAapi\bin\Debug\net8.0\STAapi.exe
+F:\SDA\STAWeb_05-02-2026\STAapi\bin\Debug\net8.0\STAapi.deps.json
+F:\SDA\STAWeb_05-02-2026\STAapi\bin\Debug\net8.0\STAapi.runtimeconfig.json
+F:\SDA\STAWeb_05-02-2026\STAapi\bin\Debug\net8.0\STAapi.dll
+F:\SDA\STAWeb_05-02-2026\STAapi\bin\Debug\net8.0\STAapi.pdb
+F:\SDA\STAWeb_05-02-2026\STAapi\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
+F:\SDA\STAWeb_05-02-2026\STAapi\bin\Debug\net8.0\Google.Protobuf.dll
+F:\SDA\STAWeb_05-02-2026\STAapi\bin\Debug\net8.0\K4os.Compression.LZ4.dll
+F:\SDA\STAWeb_05-02-2026\STAapi\bin\Debug\net8.0\K4os.Compression.LZ4.Streams.dll
+F:\SDA\STAWeb_05-02-2026\STAapi\bin\Debug\net8.0\K4os.Hash.xxHash.dll
+F:\SDA\STAWeb_05-02-2026\STAapi\bin\Debug\net8.0\log4net.dll
+F:\SDA\STAWeb_05-02-2026\STAapi\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+F:\SDA\STAWeb_05-02-2026\STAapi\bin\Debug\net8.0\Microsoft.AspNetCore.OpenApi.dll
+F:\SDA\STAWeb_05-02-2026\STAapi\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+F:\SDA\STAWeb_05-02-2026\STAapi\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+F:\SDA\STAWeb_05-02-2026\STAapi\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+F:\SDA\STAWeb_05-02-2026\STAapi\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+F:\SDA\STAWeb_05-02-2026\STAapi\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+F:\SDA\STAWeb_05-02-2026\STAapi\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+F:\SDA\STAWeb_05-02-2026\STAapi\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+F:\SDA\STAWeb_05-02-2026\STAapi\bin\Debug\net8.0\Microsoft.OpenApi.dll
+F:\SDA\STAWeb_05-02-2026\STAapi\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+F:\SDA\STAWeb_05-02-2026\STAapi\bin\Debug\net8.0\MySql.Data.dll
+F:\SDA\STAWeb_05-02-2026\STAapi\bin\Debug\net8.0\Newtonsoft.Json.dll
+F:\SDA\STAWeb_05-02-2026\STAapi\bin\Debug\net8.0\Serilog.dll
+F:\SDA\STAWeb_05-02-2026\STAapi\bin\Debug\net8.0\Serilog.AspNetCore.dll
+F:\SDA\STAWeb_05-02-2026\STAapi\bin\Debug\net8.0\Serilog.Extensions.Hosting.dll
+F:\SDA\STAWeb_05-02-2026\STAapi\bin\Debug\net8.0\Serilog.Extensions.Logging.dll
+F:\SDA\STAWeb_05-02-2026\STAapi\bin\Debug\net8.0\Serilog.Formatting.Compact.dll
+F:\SDA\STAWeb_05-02-2026\STAapi\bin\Debug\net8.0\Serilog.Settings.Configuration.dll
+F:\SDA\STAWeb_05-02-2026\STAapi\bin\Debug\net8.0\Serilog.Sinks.Console.dll
+F:\SDA\STAWeb_05-02-2026\STAapi\bin\Debug\net8.0\Serilog.Sinks.Debug.dll
+F:\SDA\STAWeb_05-02-2026\STAapi\bin\Debug\net8.0\Serilog.Sinks.File.dll
+F:\SDA\STAWeb_05-02-2026\STAapi\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+F:\SDA\STAWeb_05-02-2026\STAapi\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+F:\SDA\STAWeb_05-02-2026\STAapi\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+F:\SDA\STAWeb_05-02-2026\STAapi\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+F:\SDA\STAWeb_05-02-2026\STAapi\bin\Debug\net8.0\System.Drawing.Common.dll
+F:\SDA\STAWeb_05-02-2026\STAapi\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+F:\SDA\STAWeb_05-02-2026\STAapi\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+F:\SDA\STAWeb_05-02-2026\STAapi\bin\Debug\net8.0\System.Security.Permissions.dll
+F:\SDA\STAWeb_05-02-2026\STAapi\bin\Debug\net8.0\System.Windows.Extensions.dll
+F:\SDA\STAWeb_05-02-2026\STAapi\bin\Debug\net8.0\ZstdSharp.dll
+F:\SDA\STAWeb_05-02-2026\STAapi\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+F:\SDA\STAWeb_05-02-2026\STAapi\bin\Debug\net8.0\runtimes\win-x64\native\comerr64.dll
+F:\SDA\STAWeb_05-02-2026\STAapi\bin\Debug\net8.0\runtimes\win-x64\native\gssapi64.dll
+F:\SDA\STAWeb_05-02-2026\STAapi\bin\Debug\net8.0\runtimes\win-x64\native\k5sprt64.dll
+F:\SDA\STAWeb_05-02-2026\STAapi\bin\Debug\net8.0\runtimes\win-x64\native\krb5_64.dll
+F:\SDA\STAWeb_05-02-2026\STAapi\bin\Debug\net8.0\runtimes\win-x64\native\krbcc64.dll
+F:\SDA\STAWeb_05-02-2026\STAapi\bin\Debug\net8.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+F:\SDA\STAWeb_05-02-2026\STAapi\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+F:\SDA\STAWeb_05-02-2026\STAapi\bin\Debug\net8.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+F:\SDA\STAWeb_05-02-2026\STAapi\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+F:\SDA\STAWeb_05-02-2026\STAapi\obj\Debug\net8.0\STAapi.csproj.AssemblyReference.cache
+F:\SDA\STAWeb_05-02-2026\STAapi\obj\Debug\net8.0\rpswa.dswa.cache.json
+F:\SDA\STAWeb_05-02-2026\STAapi\obj\Debug\net8.0\STAapi.GeneratedMSBuildEditorConfig.editorconfig
+F:\SDA\STAWeb_05-02-2026\STAapi\obj\Debug\net8.0\STAapi.AssemblyInfoInputs.cache
+F:\SDA\STAWeb_05-02-2026\STAapi\obj\Debug\net8.0\STAapi.AssemblyInfo.cs
+F:\SDA\STAWeb_05-02-2026\STAapi\obj\Debug\net8.0\STAapi.csproj.CoreCompileInputs.cache
+F:\SDA\STAWeb_05-02-2026\STAapi\obj\Debug\net8.0\STAapi.MvcApplicationPartsAssemblyInfo.cs
+F:\SDA\STAWeb_05-02-2026\STAapi\obj\Debug\net8.0\STAapi.MvcApplicationPartsAssemblyInfo.cache
+F:\SDA\STAWeb_05-02-2026\STAapi\obj\Debug\net8.0\STAapi.sourcelink.json
+F:\SDA\STAWeb_05-02-2026\STAapi\obj\Debug\net8.0\rjimswa.dswa.cache.json
+F:\SDA\STAWeb_05-02-2026\STAapi\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+F:\SDA\STAWeb_05-02-2026\STAapi\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+F:\SDA\STAWeb_05-02-2026\STAapi\obj\Debug\net8.0\scopedcss\bundle\STAapi.styles.css
+F:\SDA\STAWeb_05-02-2026\STAapi\obj\Debug\net8.0\staticwebassets.build.json
+F:\SDA\STAWeb_05-02-2026\STAapi\obj\Debug\net8.0\staticwebassets.build.json.cache
+F:\SDA\STAWeb_05-02-2026\STAapi\obj\Debug\net8.0\staticwebassets.development.json
+F:\SDA\STAWeb_05-02-2026\STAapi\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+F:\SDA\STAWeb_05-02-2026\STAapi\obj\Debug\net8.0\swae.build.ex.cache
+F:\SDA\STAWeb_05-02-2026\STAapi\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+F:\SDA\STAWeb_05-02-2026\STAapi\obj\Debug\net8.0\STAapi.csproj.Up2Date
+F:\SDA\STAWeb_05-02-2026\STAapi\obj\Debug\net8.0\STAapi.dll
+F:\SDA\STAWeb_05-02-2026\STAapi\obj\Debug\net8.0\refint\STAapi.dll
+F:\SDA\STAWeb_05-02-2026\STAapi\obj\Debug\net8.0\STAapi.pdb
+F:\SDA\STAWeb_05-02-2026\STAapi\obj\Debug\net8.0\STAapi.genruntimeconfig.cache
+F:\SDA\STAWeb_05-02-2026\STAapi\obj\Debug\net8.0\ref\STAapi.dll
+F:\STA Projects\STAWeb_25-02-2026_CUMS\STAapi\bin\Debug\net8.0\.filenesting.json
+F:\STA Projects\STAWeb_25-02-2026_CUMS\STAapi\bin\Debug\net8.0\appsettings.Development.json
+F:\STA Projects\STAWeb_25-02-2026_CUMS\STAapi\bin\Debug\net8.0\appsettings.json
+F:\STA Projects\STAWeb_25-02-2026_CUMS\STAapi\bin\Debug\net8.0\STAapi.staticwebassets.endpoints.json
+F:\STA Projects\STAWeb_25-02-2026_CUMS\STAapi\bin\Debug\net8.0\STAapi.exe
+F:\STA Projects\STAWeb_25-02-2026_CUMS\STAapi\bin\Debug\net8.0\STAapi.deps.json
+F:\STA Projects\STAWeb_25-02-2026_CUMS\STAapi\bin\Debug\net8.0\STAapi.runtimeconfig.json
+F:\STA Projects\STAWeb_25-02-2026_CUMS\STAapi\bin\Debug\net8.0\STAapi.dll
+F:\STA Projects\STAWeb_25-02-2026_CUMS\STAapi\bin\Debug\net8.0\STAapi.pdb
+F:\STA Projects\STAWeb_25-02-2026_CUMS\STAapi\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
+F:\STA Projects\STAWeb_25-02-2026_CUMS\STAapi\bin\Debug\net8.0\Google.Protobuf.dll
+F:\STA Projects\STAWeb_25-02-2026_CUMS\STAapi\bin\Debug\net8.0\K4os.Compression.LZ4.dll
+F:\STA Projects\STAWeb_25-02-2026_CUMS\STAapi\bin\Debug\net8.0\K4os.Compression.LZ4.Streams.dll
+F:\STA Projects\STAWeb_25-02-2026_CUMS\STAapi\bin\Debug\net8.0\K4os.Hash.xxHash.dll
+F:\STA Projects\STAWeb_25-02-2026_CUMS\STAapi\bin\Debug\net8.0\log4net.dll
+F:\STA Projects\STAWeb_25-02-2026_CUMS\STAapi\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+F:\STA Projects\STAWeb_25-02-2026_CUMS\STAapi\bin\Debug\net8.0\Microsoft.AspNetCore.OpenApi.dll
+F:\STA Projects\STAWeb_25-02-2026_CUMS\STAapi\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+F:\STA Projects\STAWeb_25-02-2026_CUMS\STAapi\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+F:\STA Projects\STAWeb_25-02-2026_CUMS\STAapi\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+F:\STA Projects\STAWeb_25-02-2026_CUMS\STAapi\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+F:\STA Projects\STAWeb_25-02-2026_CUMS\STAapi\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+F:\STA Projects\STAWeb_25-02-2026_CUMS\STAapi\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+F:\STA Projects\STAWeb_25-02-2026_CUMS\STAapi\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+F:\STA Projects\STAWeb_25-02-2026_CUMS\STAapi\bin\Debug\net8.0\Microsoft.OpenApi.dll
+F:\STA Projects\STAWeb_25-02-2026_CUMS\STAapi\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+F:\STA Projects\STAWeb_25-02-2026_CUMS\STAapi\bin\Debug\net8.0\MySql.Data.dll
+F:\STA Projects\STAWeb_25-02-2026_CUMS\STAapi\bin\Debug\net8.0\Newtonsoft.Json.dll
+F:\STA Projects\STAWeb_25-02-2026_CUMS\STAapi\bin\Debug\net8.0\Serilog.dll
+F:\STA Projects\STAWeb_25-02-2026_CUMS\STAapi\bin\Debug\net8.0\Serilog.AspNetCore.dll
+F:\STA Projects\STAWeb_25-02-2026_CUMS\STAapi\bin\Debug\net8.0\Serilog.Extensions.Hosting.dll
+F:\STA Projects\STAWeb_25-02-2026_CUMS\STAapi\bin\Debug\net8.0\Serilog.Extensions.Logging.dll
+F:\STA Projects\STAWeb_25-02-2026_CUMS\STAapi\bin\Debug\net8.0\Serilog.Formatting.Compact.dll
+F:\STA Projects\STAWeb_25-02-2026_CUMS\STAapi\bin\Debug\net8.0\Serilog.Settings.Configuration.dll
+F:\STA Projects\STAWeb_25-02-2026_CUMS\STAapi\bin\Debug\net8.0\Serilog.Sinks.Console.dll
+F:\STA Projects\STAWeb_25-02-2026_CUMS\STAapi\bin\Debug\net8.0\Serilog.Sinks.Debug.dll
+F:\STA Projects\STAWeb_25-02-2026_CUMS\STAapi\bin\Debug\net8.0\Serilog.Sinks.File.dll
+F:\STA Projects\STAWeb_25-02-2026_CUMS\STAapi\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+F:\STA Projects\STAWeb_25-02-2026_CUMS\STAapi\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+F:\STA Projects\STAWeb_25-02-2026_CUMS\STAapi\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+F:\STA Projects\STAWeb_25-02-2026_CUMS\STAapi\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+F:\STA Projects\STAWeb_25-02-2026_CUMS\STAapi\bin\Debug\net8.0\System.Drawing.Common.dll
+F:\STA Projects\STAWeb_25-02-2026_CUMS\STAapi\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+F:\STA Projects\STAWeb_25-02-2026_CUMS\STAapi\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+F:\STA Projects\STAWeb_25-02-2026_CUMS\STAapi\bin\Debug\net8.0\System.Security.Permissions.dll
+F:\STA Projects\STAWeb_25-02-2026_CUMS\STAapi\bin\Debug\net8.0\System.Windows.Extensions.dll
+F:\STA Projects\STAWeb_25-02-2026_CUMS\STAapi\bin\Debug\net8.0\ZstdSharp.dll
+F:\STA Projects\STAWeb_25-02-2026_CUMS\STAapi\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+F:\STA Projects\STAWeb_25-02-2026_CUMS\STAapi\bin\Debug\net8.0\runtimes\win-x64\native\comerr64.dll
+F:\STA Projects\STAWeb_25-02-2026_CUMS\STAapi\bin\Debug\net8.0\runtimes\win-x64\native\gssapi64.dll
+F:\STA Projects\STAWeb_25-02-2026_CUMS\STAapi\bin\Debug\net8.0\runtimes\win-x64\native\k5sprt64.dll
+F:\STA Projects\STAWeb_25-02-2026_CUMS\STAapi\bin\Debug\net8.0\runtimes\win-x64\native\krb5_64.dll
+F:\STA Projects\STAWeb_25-02-2026_CUMS\STAapi\bin\Debug\net8.0\runtimes\win-x64\native\krbcc64.dll
+F:\STA Projects\STAWeb_25-02-2026_CUMS\STAapi\bin\Debug\net8.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+F:\STA Projects\STAWeb_25-02-2026_CUMS\STAapi\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+F:\STA Projects\STAWeb_25-02-2026_CUMS\STAapi\bin\Debug\net8.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+F:\STA Projects\STAWeb_25-02-2026_CUMS\STAapi\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+F:\STA Projects\STAWeb_25-02-2026_CUMS\STAapi\obj\Debug\net8.0\STAapi.csproj.AssemblyReference.cache
+F:\STA Projects\STAWeb_25-02-2026_CUMS\STAapi\obj\Debug\net8.0\rpswa.dswa.cache.json
+F:\STA Projects\STAWeb_25-02-2026_CUMS\STAapi\obj\Debug\net8.0\STAapi.GeneratedMSBuildEditorConfig.editorconfig
+F:\STA Projects\STAWeb_25-02-2026_CUMS\STAapi\obj\Debug\net8.0\STAapi.AssemblyInfoInputs.cache
+F:\STA Projects\STAWeb_25-02-2026_CUMS\STAapi\obj\Debug\net8.0\STAapi.AssemblyInfo.cs
+F:\STA Projects\STAWeb_25-02-2026_CUMS\STAapi\obj\Debug\net8.0\STAapi.csproj.CoreCompileInputs.cache
+F:\STA Projects\STAWeb_25-02-2026_CUMS\STAapi\obj\Debug\net8.0\STAapi.MvcApplicationPartsAssemblyInfo.cs
+F:\STA Projects\STAWeb_25-02-2026_CUMS\STAapi\obj\Debug\net8.0\STAapi.MvcApplicationPartsAssemblyInfo.cache
+F:\STA Projects\STAWeb_25-02-2026_CUMS\STAapi\obj\Debug\net8.0\STAapi.sourcelink.json
+F:\STA Projects\STAWeb_25-02-2026_CUMS\STAapi\obj\Debug\net8.0\rjimswa.dswa.cache.json
+F:\STA Projects\STAWeb_25-02-2026_CUMS\STAapi\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+F:\STA Projects\STAWeb_25-02-2026_CUMS\STAapi\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+F:\STA Projects\STAWeb_25-02-2026_CUMS\STAapi\obj\Debug\net8.0\scopedcss\bundle\STAapi.styles.css
+F:\STA Projects\STAWeb_25-02-2026_CUMS\STAapi\obj\Debug\net8.0\staticwebassets.build.json
+F:\STA Projects\STAWeb_25-02-2026_CUMS\STAapi\obj\Debug\net8.0\staticwebassets.build.json.cache
+F:\STA Projects\STAWeb_25-02-2026_CUMS\STAapi\obj\Debug\net8.0\staticwebassets.development.json
+F:\STA Projects\STAWeb_25-02-2026_CUMS\STAapi\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+F:\STA Projects\STAWeb_25-02-2026_CUMS\STAapi\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+F:\STA Projects\STAWeb_25-02-2026_CUMS\STAapi\obj\Debug\net8.0\STAapi.csproj.Up2Date
+F:\STA Projects\STAWeb_25-02-2026_CUMS\STAapi\obj\Debug\net8.0\STAapi.dll
+F:\STA Projects\STAWeb_25-02-2026_CUMS\STAapi\obj\Debug\net8.0\refint\STAapi.dll
+F:\STA Projects\STAWeb_25-02-2026_CUMS\STAapi\obj\Debug\net8.0\STAapi.pdb
+F:\STA Projects\STAWeb_25-02-2026_CUMS\STAapi\obj\Debug\net8.0\STAapi.genruntimeconfig.cache
+F:\STA Projects\STAWeb_25-02-2026_CUMS\STAapi\obj\Debug\net8.0\ref\STAapi.dll
+F:\STA Projects\IPO_CUMS\STAapi\bin\Debug\net8.0\.filenesting.json
+F:\STA Projects\IPO_CUMS\STAapi\bin\Debug\net8.0\appsettings.Development.json
+F:\STA Projects\IPO_CUMS\STAapi\bin\Debug\net8.0\appsettings.json
+F:\STA Projects\IPO_CUMS\STAapi\bin\Debug\net8.0\STAapi.staticwebassets.endpoints.json
+F:\STA Projects\IPO_CUMS\STAapi\bin\Debug\net8.0\STAapi.exe
+F:\STA Projects\IPO_CUMS\STAapi\bin\Debug\net8.0\STAapi.deps.json
+F:\STA Projects\IPO_CUMS\STAapi\bin\Debug\net8.0\STAapi.runtimeconfig.json
+F:\STA Projects\IPO_CUMS\STAapi\bin\Debug\net8.0\STAapi.dll
+F:\STA Projects\IPO_CUMS\STAapi\bin\Debug\net8.0\STAapi.pdb
+F:\STA Projects\IPO_CUMS\STAapi\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
+F:\STA Projects\IPO_CUMS\STAapi\bin\Debug\net8.0\Google.Protobuf.dll
+F:\STA Projects\IPO_CUMS\STAapi\bin\Debug\net8.0\K4os.Compression.LZ4.dll
+F:\STA Projects\IPO_CUMS\STAapi\bin\Debug\net8.0\K4os.Compression.LZ4.Streams.dll
+F:\STA Projects\IPO_CUMS\STAapi\bin\Debug\net8.0\K4os.Hash.xxHash.dll
+F:\STA Projects\IPO_CUMS\STAapi\bin\Debug\net8.0\log4net.dll
+F:\STA Projects\IPO_CUMS\STAapi\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+F:\STA Projects\IPO_CUMS\STAapi\bin\Debug\net8.0\Microsoft.AspNetCore.OpenApi.dll
+F:\STA Projects\IPO_CUMS\STAapi\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+F:\STA Projects\IPO_CUMS\STAapi\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+F:\STA Projects\IPO_CUMS\STAapi\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+F:\STA Projects\IPO_CUMS\STAapi\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+F:\STA Projects\IPO_CUMS\STAapi\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+F:\STA Projects\IPO_CUMS\STAapi\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+F:\STA Projects\IPO_CUMS\STAapi\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+F:\STA Projects\IPO_CUMS\STAapi\bin\Debug\net8.0\Microsoft.OpenApi.dll
+F:\STA Projects\IPO_CUMS\STAapi\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+F:\STA Projects\IPO_CUMS\STAapi\bin\Debug\net8.0\MySql.Data.dll
+F:\STA Projects\IPO_CUMS\STAapi\bin\Debug\net8.0\Newtonsoft.Json.dll
+F:\STA Projects\IPO_CUMS\STAapi\bin\Debug\net8.0\Serilog.dll
+F:\STA Projects\IPO_CUMS\STAapi\bin\Debug\net8.0\Serilog.AspNetCore.dll
+F:\STA Projects\IPO_CUMS\STAapi\bin\Debug\net8.0\Serilog.Extensions.Hosting.dll
+F:\STA Projects\IPO_CUMS\STAapi\bin\Debug\net8.0\Serilog.Extensions.Logging.dll
+F:\STA Projects\IPO_CUMS\STAapi\bin\Debug\net8.0\Serilog.Formatting.Compact.dll
+F:\STA Projects\IPO_CUMS\STAapi\bin\Debug\net8.0\Serilog.Settings.Configuration.dll
+F:\STA Projects\IPO_CUMS\STAapi\bin\Debug\net8.0\Serilog.Sinks.Console.dll
+F:\STA Projects\IPO_CUMS\STAapi\bin\Debug\net8.0\Serilog.Sinks.Debug.dll
+F:\STA Projects\IPO_CUMS\STAapi\bin\Debug\net8.0\Serilog.Sinks.File.dll
+F:\STA Projects\IPO_CUMS\STAapi\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+F:\STA Projects\IPO_CUMS\STAapi\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+F:\STA Projects\IPO_CUMS\STAapi\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+F:\STA Projects\IPO_CUMS\STAapi\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+F:\STA Projects\IPO_CUMS\STAapi\bin\Debug\net8.0\System.Drawing.Common.dll
+F:\STA Projects\IPO_CUMS\STAapi\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+F:\STA Projects\IPO_CUMS\STAapi\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+F:\STA Projects\IPO_CUMS\STAapi\bin\Debug\net8.0\System.Security.Permissions.dll
+F:\STA Projects\IPO_CUMS\STAapi\bin\Debug\net8.0\System.Windows.Extensions.dll
+F:\STA Projects\IPO_CUMS\STAapi\bin\Debug\net8.0\ZstdSharp.dll
+F:\STA Projects\IPO_CUMS\STAapi\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+F:\STA Projects\IPO_CUMS\STAapi\bin\Debug\net8.0\runtimes\win-x64\native\comerr64.dll
+F:\STA Projects\IPO_CUMS\STAapi\bin\Debug\net8.0\runtimes\win-x64\native\gssapi64.dll
+F:\STA Projects\IPO_CUMS\STAapi\bin\Debug\net8.0\runtimes\win-x64\native\k5sprt64.dll
+F:\STA Projects\IPO_CUMS\STAapi\bin\Debug\net8.0\runtimes\win-x64\native\krb5_64.dll
+F:\STA Projects\IPO_CUMS\STAapi\bin\Debug\net8.0\runtimes\win-x64\native\krbcc64.dll
+F:\STA Projects\IPO_CUMS\STAapi\bin\Debug\net8.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+F:\STA Projects\IPO_CUMS\STAapi\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+F:\STA Projects\IPO_CUMS\STAapi\bin\Debug\net8.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+F:\STA Projects\IPO_CUMS\STAapi\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+F:\STA Projects\IPO_CUMS\STAapi\obj\Debug\net8.0\STAapi.csproj.AssemblyReference.cache
+F:\STA Projects\IPO_CUMS\STAapi\obj\Debug\net8.0\rpswa.dswa.cache.json
+F:\STA Projects\IPO_CUMS\STAapi\obj\Debug\net8.0\STAapi.GeneratedMSBuildEditorConfig.editorconfig
+F:\STA Projects\IPO_CUMS\STAapi\obj\Debug\net8.0\STAapi.AssemblyInfoInputs.cache
+F:\STA Projects\IPO_CUMS\STAapi\obj\Debug\net8.0\STAapi.AssemblyInfo.cs
+F:\STA Projects\IPO_CUMS\STAapi\obj\Debug\net8.0\STAapi.csproj.CoreCompileInputs.cache
+F:\STA Projects\IPO_CUMS\STAapi\obj\Debug\net8.0\STAapi.MvcApplicationPartsAssemblyInfo.cs
+F:\STA Projects\IPO_CUMS\STAapi\obj\Debug\net8.0\STAapi.MvcApplicationPartsAssemblyInfo.cache
+F:\STA Projects\IPO_CUMS\STAapi\obj\Debug\net8.0\STAapi.sourcelink.json
+F:\STA Projects\IPO_CUMS\STAapi\obj\Debug\net8.0\rjimswa.dswa.cache.json
+F:\STA Projects\IPO_CUMS\STAapi\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+F:\STA Projects\IPO_CUMS\STAapi\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+F:\STA Projects\IPO_CUMS\STAapi\obj\Debug\net8.0\scopedcss\bundle\STAapi.styles.css
+F:\STA Projects\IPO_CUMS\STAapi\obj\Debug\net8.0\staticwebassets.build.json
+F:\STA Projects\IPO_CUMS\STAapi\obj\Debug\net8.0\staticwebassets.build.json.cache
+F:\STA Projects\IPO_CUMS\STAapi\obj\Debug\net8.0\staticwebassets.development.json
+F:\STA Projects\IPO_CUMS\STAapi\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+F:\STA Projects\IPO_CUMS\STAapi\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+F:\STA Projects\IPO_CUMS\STAapi\obj\Debug\net8.0\STAapi.csproj.Up2Date
+F:\STA Projects\IPO_CUMS\STAapi\obj\Debug\net8.0\STAapi.dll
+F:\STA Projects\IPO_CUMS\STAapi\obj\Debug\net8.0\refint\STAapi.dll
+F:\STA Projects\IPO_CUMS\STAapi\obj\Debug\net8.0\STAapi.pdb
+F:\STA Projects\IPO_CUMS\STAapi\obj\Debug\net8.0\STAapi.genruntimeconfig.cache
+F:\STA Projects\IPO_CUMS\STAapi\obj\Debug\net8.0\ref\STAapi.dll
+E:\Venki Shared Project\Pandiaraj\IPO_CUMS\CUMS_api\STAapi\bin\Debug\net8.0\.filenesting.json
+E:\Venki Shared Project\Pandiaraj\IPO_CUMS\CUMS_api\STAapi\bin\Debug\net8.0\appsettings.Development.json
+E:\Venki Shared Project\Pandiaraj\IPO_CUMS\CUMS_api\STAapi\bin\Debug\net8.0\appsettings.json
+E:\Venki Shared Project\Pandiaraj\IPO_CUMS\CUMS_api\STAapi\bin\Debug\net8.0\STAapi.staticwebassets.endpoints.json
+E:\Venki Shared Project\Pandiaraj\IPO_CUMS\CUMS_api\STAapi\bin\Debug\net8.0\STAapi.exe
+E:\Venki Shared Project\Pandiaraj\IPO_CUMS\CUMS_api\STAapi\bin\Debug\net8.0\STAapi.deps.json
+E:\Venki Shared Project\Pandiaraj\IPO_CUMS\CUMS_api\STAapi\bin\Debug\net8.0\STAapi.runtimeconfig.json
+E:\Venki Shared Project\Pandiaraj\IPO_CUMS\CUMS_api\STAapi\bin\Debug\net8.0\STAapi.dll
+E:\Venki Shared Project\Pandiaraj\IPO_CUMS\CUMS_api\STAapi\bin\Debug\net8.0\STAapi.pdb
+E:\Venki Shared Project\Pandiaraj\IPO_CUMS\CUMS_api\STAapi\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
+E:\Venki Shared Project\Pandiaraj\IPO_CUMS\CUMS_api\STAapi\bin\Debug\net8.0\Google.Protobuf.dll
+E:\Venki Shared Project\Pandiaraj\IPO_CUMS\CUMS_api\STAapi\bin\Debug\net8.0\K4os.Compression.LZ4.dll
+E:\Venki Shared Project\Pandiaraj\IPO_CUMS\CUMS_api\STAapi\bin\Debug\net8.0\K4os.Compression.LZ4.Streams.dll
+E:\Venki Shared Project\Pandiaraj\IPO_CUMS\CUMS_api\STAapi\bin\Debug\net8.0\K4os.Hash.xxHash.dll
+E:\Venki Shared Project\Pandiaraj\IPO_CUMS\CUMS_api\STAapi\bin\Debug\net8.0\log4net.dll
+E:\Venki Shared Project\Pandiaraj\IPO_CUMS\CUMS_api\STAapi\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+E:\Venki Shared Project\Pandiaraj\IPO_CUMS\CUMS_api\STAapi\bin\Debug\net8.0\Microsoft.AspNetCore.OpenApi.dll
+E:\Venki Shared Project\Pandiaraj\IPO_CUMS\CUMS_api\STAapi\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+E:\Venki Shared Project\Pandiaraj\IPO_CUMS\CUMS_api\STAapi\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+E:\Venki Shared Project\Pandiaraj\IPO_CUMS\CUMS_api\STAapi\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\Venki Shared Project\Pandiaraj\IPO_CUMS\CUMS_api\STAapi\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+E:\Venki Shared Project\Pandiaraj\IPO_CUMS\CUMS_api\STAapi\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+E:\Venki Shared Project\Pandiaraj\IPO_CUMS\CUMS_api\STAapi\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\Venki Shared Project\Pandiaraj\IPO_CUMS\CUMS_api\STAapi\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+E:\Venki Shared Project\Pandiaraj\IPO_CUMS\CUMS_api\STAapi\bin\Debug\net8.0\Microsoft.OpenApi.dll
+E:\Venki Shared Project\Pandiaraj\IPO_CUMS\CUMS_api\STAapi\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+E:\Venki Shared Project\Pandiaraj\IPO_CUMS\CUMS_api\STAapi\bin\Debug\net8.0\MySql.Data.dll
+E:\Venki Shared Project\Pandiaraj\IPO_CUMS\CUMS_api\STAapi\bin\Debug\net8.0\Newtonsoft.Json.dll
+E:\Venki Shared Project\Pandiaraj\IPO_CUMS\CUMS_api\STAapi\bin\Debug\net8.0\Serilog.dll
+E:\Venki Shared Project\Pandiaraj\IPO_CUMS\CUMS_api\STAapi\bin\Debug\net8.0\Serilog.AspNetCore.dll
+E:\Venki Shared Project\Pandiaraj\IPO_CUMS\CUMS_api\STAapi\bin\Debug\net8.0\Serilog.Extensions.Hosting.dll
+E:\Venki Shared Project\Pandiaraj\IPO_CUMS\CUMS_api\STAapi\bin\Debug\net8.0\Serilog.Extensions.Logging.dll
+E:\Venki Shared Project\Pandiaraj\IPO_CUMS\CUMS_api\STAapi\bin\Debug\net8.0\Serilog.Formatting.Compact.dll
+E:\Venki Shared Project\Pandiaraj\IPO_CUMS\CUMS_api\STAapi\bin\Debug\net8.0\Serilog.Settings.Configuration.dll
+E:\Venki Shared Project\Pandiaraj\IPO_CUMS\CUMS_api\STAapi\bin\Debug\net8.0\Serilog.Sinks.Console.dll
+E:\Venki Shared Project\Pandiaraj\IPO_CUMS\CUMS_api\STAapi\bin\Debug\net8.0\Serilog.Sinks.Debug.dll
+E:\Venki Shared Project\Pandiaraj\IPO_CUMS\CUMS_api\STAapi\bin\Debug\net8.0\Serilog.Sinks.File.dll
+E:\Venki Shared Project\Pandiaraj\IPO_CUMS\CUMS_api\STAapi\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+E:\Venki Shared Project\Pandiaraj\IPO_CUMS\CUMS_api\STAapi\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+E:\Venki Shared Project\Pandiaraj\IPO_CUMS\CUMS_api\STAapi\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+E:\Venki Shared Project\Pandiaraj\IPO_CUMS\CUMS_api\STAapi\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+E:\Venki Shared Project\Pandiaraj\IPO_CUMS\CUMS_api\STAapi\bin\Debug\net8.0\System.Drawing.Common.dll
+E:\Venki Shared Project\Pandiaraj\IPO_CUMS\CUMS_api\STAapi\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+E:\Venki Shared Project\Pandiaraj\IPO_CUMS\CUMS_api\STAapi\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+E:\Venki Shared Project\Pandiaraj\IPO_CUMS\CUMS_api\STAapi\bin\Debug\net8.0\System.Security.Permissions.dll
+E:\Venki Shared Project\Pandiaraj\IPO_CUMS\CUMS_api\STAapi\bin\Debug\net8.0\System.Windows.Extensions.dll
+E:\Venki Shared Project\Pandiaraj\IPO_CUMS\CUMS_api\STAapi\bin\Debug\net8.0\ZstdSharp.dll
+E:\Venki Shared Project\Pandiaraj\IPO_CUMS\CUMS_api\STAapi\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+E:\Venki Shared Project\Pandiaraj\IPO_CUMS\CUMS_api\STAapi\bin\Debug\net8.0\runtimes\win-x64\native\comerr64.dll
+E:\Venki Shared Project\Pandiaraj\IPO_CUMS\CUMS_api\STAapi\bin\Debug\net8.0\runtimes\win-x64\native\gssapi64.dll
+E:\Venki Shared Project\Pandiaraj\IPO_CUMS\CUMS_api\STAapi\bin\Debug\net8.0\runtimes\win-x64\native\k5sprt64.dll
+E:\Venki Shared Project\Pandiaraj\IPO_CUMS\CUMS_api\STAapi\bin\Debug\net8.0\runtimes\win-x64\native\krb5_64.dll
+E:\Venki Shared Project\Pandiaraj\IPO_CUMS\CUMS_api\STAapi\bin\Debug\net8.0\runtimes\win-x64\native\krbcc64.dll
+E:\Venki Shared Project\Pandiaraj\IPO_CUMS\CUMS_api\STAapi\bin\Debug\net8.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+E:\Venki Shared Project\Pandiaraj\IPO_CUMS\CUMS_api\STAapi\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+E:\Venki Shared Project\Pandiaraj\IPO_CUMS\CUMS_api\STAapi\bin\Debug\net8.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+E:\Venki Shared Project\Pandiaraj\IPO_CUMS\CUMS_api\STAapi\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+E:\Venki Shared Project\Pandiaraj\IPO_CUMS\CUMS_api\STAapi\obj\Debug\net8.0\STAapi.csproj.AssemblyReference.cache
+E:\Venki Shared Project\Pandiaraj\IPO_CUMS\CUMS_api\STAapi\obj\Debug\net8.0\rpswa.dswa.cache.json
+E:\Venki Shared Project\Pandiaraj\IPO_CUMS\CUMS_api\STAapi\obj\Debug\net8.0\STAapi.GeneratedMSBuildEditorConfig.editorconfig
+E:\Venki Shared Project\Pandiaraj\IPO_CUMS\CUMS_api\STAapi\obj\Debug\net8.0\STAapi.AssemblyInfoInputs.cache
+E:\Venki Shared Project\Pandiaraj\IPO_CUMS\CUMS_api\STAapi\obj\Debug\net8.0\STAapi.AssemblyInfo.cs
+E:\Venki Shared Project\Pandiaraj\IPO_CUMS\CUMS_api\STAapi\obj\Debug\net8.0\STAapi.csproj.CoreCompileInputs.cache
+E:\Venki Shared Project\Pandiaraj\IPO_CUMS\CUMS_api\STAapi\obj\Debug\net8.0\STAapi.MvcApplicationPartsAssemblyInfo.cs
+E:\Venki Shared Project\Pandiaraj\IPO_CUMS\CUMS_api\STAapi\obj\Debug\net8.0\STAapi.MvcApplicationPartsAssemblyInfo.cache
+E:\Venki Shared Project\Pandiaraj\IPO_CUMS\CUMS_api\STAapi\obj\Debug\net8.0\STAapi.sourcelink.json
+E:\Venki Shared Project\Pandiaraj\IPO_CUMS\CUMS_api\STAapi\obj\Debug\net8.0\rjimswa.dswa.cache.json
+E:\Venki Shared Project\Pandiaraj\IPO_CUMS\CUMS_api\STAapi\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+E:\Venki Shared Project\Pandiaraj\IPO_CUMS\CUMS_api\STAapi\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+E:\Venki Shared Project\Pandiaraj\IPO_CUMS\CUMS_api\STAapi\obj\Debug\net8.0\scopedcss\bundle\STAapi.styles.css
+E:\Venki Shared Project\Pandiaraj\IPO_CUMS\CUMS_api\STAapi\obj\Debug\net8.0\staticwebassets.build.json
+E:\Venki Shared Project\Pandiaraj\IPO_CUMS\CUMS_api\STAapi\obj\Debug\net8.0\staticwebassets.build.json.cache
+E:\Venki Shared Project\Pandiaraj\IPO_CUMS\CUMS_api\STAapi\obj\Debug\net8.0\staticwebassets.development.json
+E:\Venki Shared Project\Pandiaraj\IPO_CUMS\CUMS_api\STAapi\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+E:\Venki Shared Project\Pandiaraj\IPO_CUMS\CUMS_api\STAapi\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+E:\Venki Shared Project\Pandiaraj\IPO_CUMS\CUMS_api\STAapi\obj\Debug\net8.0\STAapi.csproj.Up2Date
+E:\Venki Shared Project\Pandiaraj\IPO_CUMS\CUMS_api\STAapi\obj\Debug\net8.0\STAapi.dll
+E:\Venki Shared Project\Pandiaraj\IPO_CUMS\CUMS_api\STAapi\obj\Debug\net8.0\refint\STAapi.dll
+E:\Venki Shared Project\Pandiaraj\IPO_CUMS\CUMS_api\STAapi\obj\Debug\net8.0\STAapi.pdb
+E:\Venki Shared Project\Pandiaraj\IPO_CUMS\CUMS_api\STAapi\obj\Debug\net8.0\STAapi.genruntimeconfig.cache
+E:\Venki Shared Project\Pandiaraj\IPO_CUMS\CUMS_api\STAapi\obj\Debug\net8.0\ref\STAapi.dll
