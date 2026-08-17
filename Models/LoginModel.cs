@@ -21,7 +21,9 @@
         public Int16 menuGid { get; set; }
         public string action { get; set; }
         public string app_code { get; set; }
-
+        public string ipaddress { get; set; }
+        public string browseragent { get; set; }
+        public string LoginSessionId { get; set; }
         public partial class menu
         {
             public int menu_gid { get; set; }
