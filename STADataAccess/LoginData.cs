@@ -11,7 +11,7 @@ namespace STAReportsAPI.STADataAccess
         DataSet ds = new DataSet();
         List<IDbDataParameter>? parameters;
         CommonHeader objlog = new CommonHeader();
-        public DataSet setCredentials(string email,string otp,string constring)
+        public DataSet setCredentials(string email, string otp, string constring)
         {
             try
             {
@@ -33,27 +33,27 @@ namespace STAReportsAPI.STADataAccess
 
         }
 
-		public DataSet validateCredentials(string empcode, string otp, string constring)
-		{
-			try
-			{
-				DBManager dbManager = new DBManager(constring);
-				Dictionary<string, Object> values = new Dictionary<string, object>();
-				MySqlDataAccess con = new MySqlDataAccess("");
-				parameters = new List<IDbDataParameter>();
-				parameters.Add(dbManager.CreateParameter("in_empcode", empcode, DbType.String));
-				parameters.Add(dbManager.CreateParameter("in_otp", otp, DbType.String));
-				ds = dbManager.execStoredProcedurelist("pr_get_validatecredentials", CommandType.StoredProcedure, parameters.ToArray());
-				return ds;
-			}
-			catch (Exception ex)
-			{
-				CommonHeader objlog = new CommonHeader();
-				objlog.logger("SP:pr_get_validatecredentials" + "Error Message:" + ex.Message);
-				return ds;
-			}
+        public DataSet validateCredentials(string empcode, string otp, string constring)
+        {
+            try
+            {
+                DBManager dbManager = new DBManager(constring);
+                Dictionary<string, Object> values = new Dictionary<string, object>();
+                MySqlDataAccess con = new MySqlDataAccess("");
+                parameters = new List<IDbDataParameter>();
+                parameters.Add(dbManager.CreateParameter("in_empcode", empcode, DbType.String));
+                parameters.Add(dbManager.CreateParameter("in_otp", otp, DbType.String));
+                ds = dbManager.execStoredProcedurelist("pr_get_validatecredentials", CommandType.StoredProcedure, parameters.ToArray());
+                return ds;
+            }
+            catch (Exception ex)
+            {
+                CommonHeader objlog = new CommonHeader();
+                objlog.logger("SP:pr_get_validatecredentials" + "Error Message:" + ex.Message);
+                return ds;
+            }
 
-		}
+        }
 
         public DataSet GetMenu(Int16 userGroupid, string menutype, Int16 menu_gid, string constring)
         {
@@ -130,7 +130,7 @@ namespace STAReportsAPI.STADataAccess
 
         }
 
-        public DataSet Users_login(LoginModel iudObj, string constring)
+        public DataSet Users_login(LoginModel iudObj, string constring, string IPO_constring)
         {
             try
             {
@@ -142,13 +142,52 @@ namespace STAReportsAPI.STADataAccess
                 parameters.Add(dbManager.CreateParameter("in_user_pwd", iudObj.txt_pwd, DbType.String));
                 parameters.Add(dbManager.CreateParameter("in_app_code", iudObj.app_code, DbType.String));
                 ds = dbManager.execStoredProcedurelist("pr_GNSA_Login_Validate", CommandType.StoredProcedure, parameters.ToArray());
+                string msgs = ds.Tables[0].Rows[0]["message"].ToString();
+                int status = Convert.ToInt32(ds.Tables[0].Rows[0]["success"]);
+                if (status == 0)
+                {
+                    GetLogindetails(iudObj, IPO_constring, "FAILURE", msgs);
+                }
+                else
+                    GetLogindetails(iudObj, IPO_constring, "SUCCESS", msgs);
+
                 return ds;
             }
             catch (Exception ex)
             {
 
                 objlog.logger("SP:pr_GNSA_Login_Validate - Method Name " + "Error Message:" + ex.Message);
+                GetLogindetails(iudObj, IPO_constring, "FAILED", ex.Message);
                 return ds;
+            }
+
+        }
+        public void GetLogindetails(LoginModel iudObj, string constring, string login_action, string msg)
+        {
+            try
+            {
+                DataSet dsipo = new DataSet();
+                DBManager dbManager = new DBManager(constring);
+                Dictionary<string, Object> values = new Dictionary<string, object>();
+                MySqlDataAccess con = new MySqlDataAccess("");
+                parameters = new List<IDbDataParameter>();
+                parameters.Add(dbManager.CreateParameter("in_user_code", iudObj.empcode, DbType.String));
+                parameters.Add(dbManager.CreateParameter("in_user_name", iudObj.empcode, DbType.String));
+                parameters.Add(dbManager.CreateParameter("in_login_date", DateTime.Now, DbType.String));
+                parameters.Add(dbManager.CreateParameter("in_login_status", login_action, DbType.String));
+                parameters.Add(dbManager.CreateParameter("in_failure_reason", msg, DbType.String));
+                parameters.Add(dbManager.CreateParameter("in_ip_address", iudObj.ipaddress, DbType.String));
+                parameters.Add(dbManager.CreateParameter("in_browser_name", iudObj.browseragent, DbType.String));
+                parameters.Add(dbManager.CreateParameter("in_session_id", iudObj.LoginSessionId, DbType.String));
+
+                dsipo = dbManager.execStoredProcedurelist("pr_ins_loginlog", CommandType.StoredProcedure, parameters.ToArray());
+
+            }
+            catch (Exception ex)
+            {
+
+                objlog.logger("SP:pr_ins_loginlog - GetLogindetails Method Name " + "Error Message:" + ex.Message);
+
             }
 
         }

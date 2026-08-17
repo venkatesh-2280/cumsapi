@@ -56,12 +56,12 @@ namespace STAReportsAPI.Controllers
                             MySqlDataReader reader = cmd.ExecuteReader();
                             if (reader.Read())
                             {
-                                useremail = reader["email"].ToString();                               
+                                useremail = reader["email"].ToString();
                             }
                             else
                             {
                                 // return Json("User not found.");
-                               
+
                             }
                         }
                     }
@@ -110,32 +110,32 @@ namespace STAReportsAPI.Controllers
                     var serializedProduct = JsonConvert.SerializeObject(response, Formatting.None);
                     return Ok(serializedProduct);
                 }
-               
+
 
             }
             catch (Exception e)
             {
                 return Problem(title: e.Message);
             }
-            
+
         }
 
-		[HttpPost("validateOTP")]
-		public IActionResult validateOTP([FromBody] LoginModel objModel)
-		{
-			try
-			{
-				constring = _configuration.GetSection("Appsettings")["ConnectionStrings"].ToString();
-				response = objData.validateCredentials(objModel.empEmail, objModel.Otp, constring);
-				var serializedProduct = JsonConvert.SerializeObject(response, Formatting.None);
-				return Ok(serializedProduct);
-			}
-			catch (Exception e)
-			{
-				return Problem(title: e.Message);
-			}
+        [HttpPost("validateOTP")]
+        public IActionResult validateOTP([FromBody] LoginModel objModel)
+        {
+            try
+            {
+                constring = _configuration.GetSection("Appsettings")["ConnectionStrings"].ToString();
+                response = objData.validateCredentials(objModel.empEmail, objModel.Otp, constring);
+                var serializedProduct = JsonConvert.SerializeObject(response, Formatting.None);
+                return Ok(serializedProduct);
+            }
+            catch (Exception e)
+            {
+                return Problem(title: e.Message);
+            }
 
-		}
+        }
 
         [HttpPost("getMenu")]
         public IActionResult getMenu([FromBody] LoginModel objModel)
@@ -171,7 +171,7 @@ namespace STAReportsAPI.Controllers
                 return Problem(title: e.Message);
             }
         }
-        
+
         [HttpPost("GetChngPwdFlag")]
         public IActionResult GetChngPwdFlag([FromBody] LoginModel iudObj)
         {
@@ -241,12 +241,12 @@ namespace STAReportsAPI.Controllers
                 if (Convert.ToInt32(row["id"]) <= 0)
                     return Unauthorized("Invalid credentials");
 
-                 
+
                 string tokens = GenerateJwtToken(
                     row["email"].ToString(),
                     row["id"].ToString(),
                     row["user_role"].ToString()
-                ); 
+                );
                 return Ok(new
                 {
                     token = tokens,
@@ -282,11 +282,12 @@ namespace STAReportsAPI.Controllers
         {
 
             constring = _configuration.GetSection("Appsettings")["CMUS_Connection"].ToString();
+            string IPO_constring = _configuration.GetSection("Appsettings")["IPO_Connection"].ToString();
             //headerValue header_value = new headerValue();
             DataSet response = new DataSet();
             try
             {
-                response = objData.Users_login(iudObj, constring);
+                response = objData.Users_login(iudObj, constring, IPO_constring);
                 var serializedProduct = JsonConvert.SerializeObject(response, Formatting.None);
                 return Ok(serializedProduct);
             }
@@ -296,6 +297,23 @@ namespace STAReportsAPI.Controllers
             }
         }
 
+        [AllowAnonymous]
+        [HttpPost("UsersLogout")]
+        public IActionResult UsersLogout([FromBody] LoginModel iudObj)
+        {
+            string IPO_constring = _configuration.GetSection("Appsettings")["IPO_Connection"].ToString();
+            //headerValue header_value = new headerValue();
+            DataSet response = new DataSet();
+            try
+            {
+                objData.GetLogindetails(iudObj, IPO_constring, "Logout", iudObj.action);
+                return Ok("Logout");
+            }
+            catch (Exception e)
+            {
+                return Problem(title: e.Message);
+            }
+        }
 
     }
 }
