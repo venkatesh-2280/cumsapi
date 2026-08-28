@@ -102,5 +102,57 @@ namespace STAapi.Controllers
             }
         }
 
+        [HttpGet("GetPwdConfigValues")]
+        public IActionResult GetPwdConfigValues()
+        {
+            try
+            {
+                string constring = _configuration
+                    .GetSection("Appsettings")["CMUS_Connection"]
+                    .ToString();
+
+                DataSet ds = objData.GetPwdConfigValues(constring);
+
+                if (ds != null &&
+                    ds.Tables.Count > 0 &&
+                    ds.Tables[0].Rows.Count > 0)
+                {
+                    DataRow row = ds.Tables[0].Rows[0];
+
+                    var result = new
+                    {
+                        password_max_len = row["password_max_len"]?.ToString(),
+                        password_min_len = row["password_min_len"]?.ToString(),
+                        pwd_require_uppercase = row["pwd_require_uppercase"]?.ToString(),
+                        pwd_require_lowercase = row["pwd_require_lowercase"]?.ToString(),
+                        pwd_require_number = row["pwd_require_number"]?.ToString(),
+                        pwd_require_special_char = row["pwd_require_special_char"]?.ToString(),
+                        password_attempt_count = row["password_attempt_count"]?.ToString()
+                    };
+
+                    return Ok(result);
+                }
+
+                return Ok(new
+                {
+                    password_max_len = "",
+                    password_min_len = "",
+                    pwd_require_uppercase = "",
+                    pwd_require_lowercase = "",
+                    pwd_require_number = "",
+                    pwd_require_special_char = "",
+                    password_attempt_count = ""
+                });
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(new
+                {
+                    status = "Failure",
+                    message = ex.Message
+                });
+            }
+        }
+
     }
 }
