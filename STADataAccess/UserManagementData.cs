@@ -117,5 +117,31 @@ namespace STAReportsAPI.STADataAccess
             return ds;
         }
 
+        public DataSet GetPwdConfigValues(string constring)
+        {
+            DataSet ds = new DataSet();
+
+            try
+            {
+                using (MySqlConnection con = new MySqlConnection(constring))
+                {
+                    using (MySqlCommand cmd = new MySqlCommand("pr_get_pwdconfigvalues", con))
+                    {
+                        cmd.CommandType = CommandType.StoredProcedure;
+
+                        using (MySqlDataAdapter da = new MySqlDataAdapter(cmd))
+                        {
+                            da.Fill(ds);
+                        }
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+
+            return ds;
+        }
     }
 }
